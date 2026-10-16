@@ -1,0 +1,4250 @@
+{
+  "provenance": "Notebook training literals plus declared implementation expansion. No holdout messages appended to training. Original holdout is exposed regression data.",
+  "examples": [
+    {
+      "text": "I want to book a standard room",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to book a deluxe room",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to book a family room",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to book a suite",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I reserve a standard room for one night?",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I reserve a deluxe room for 3 nights?",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I reserve a family room for two nights?",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I reserve a suite for a week?",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to make a reservation for a standard room",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to make a reservation for a deluxe room",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to make a reservation for a family room",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to make a reservation for a suite",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Please book me a standard room starting tomorrow",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Please book me a deluxe room starting December 24",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Please book me a family room starting next Friday",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Please book me a suite starting 2027-01-05",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need a room for one guest on tomorrow",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need a room for 2 guests on December 24",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need a room for 4 guests on next Friday",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need a room for a couple on 2027-01-05",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Book a standard room for one guest please",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Book a deluxe room for 2 guests please",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Book a family room for 4 guests please",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Book a suite for a couple please",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to reserve a standard room for one night starting tomorrow",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to reserve a deluxe room for 3 nights starting December 24",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to reserve a family room for two nights starting next Friday",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to reserve a suite for a week starting 2027-01-05",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you help me book a room for one guest?",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you help me book a room for 2 guests?",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you help me book a room for 4 guests?",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you help me book a room for a couple?",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to check in to a standard room on tomorrow",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to check in to a deluxe room on December 24",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to check in to a family room on next Friday",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to check in to a suite on 2027-01-05",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Reserve a standard room for me for one night",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Reserve a deluxe room for me for 3 nights",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Reserve a family room for me for two nights",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Reserve a suite for me for a week",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to make a booking for one guest",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to make a booking for 2 guests",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to make a booking for 4 guests",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to make a booking for a couple",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I get a standard room reserved for tomorrow?",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I get a deluxe room reserved for December 24?",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I get a family room reserved for next Friday?",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I get a suite reserved for 2027-01-05?",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I would like to book accommodation for one night",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I would like to book accommodation for 3 nights",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I would like to book accommodation for two nights",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I would like to book accommodation for a week",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Set up a reservation for a standard room on tomorrow",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Set up a reservation for a deluxe room on December 24",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Set up a reservation for a family room on next Friday",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Set up a reservation for a suite on 2027-01-05",
+      "intent": "book_room",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Do you have any standard room available on tomorrow?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Do you have any deluxe room available on December 24?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Do you have any family room available on next Friday?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Do you have any suite available on 2027-01-05?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Is there a vacancy tomorrow?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Is there a vacancy December 24?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Is there a vacancy next Friday?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Is there a vacancy 2027-01-05?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Are there any rooms free for one night starting tomorrow?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Are there any rooms free for 3 nights starting December 24?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Are there any rooms free for two nights starting next Friday?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Are there any rooms free for a week starting 2027-01-05?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Do you have availability for one guest?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Do you have availability for 2 guests?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Do you have availability for 4 guests?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Do you have availability for a couple?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Is a standard room available tomorrow?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Is a deluxe room available December 24?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Is a family room available next Friday?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Is a suite available 2027-01-05?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you check if you have rooms open on tomorrow?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you check if you have rooms open on December 24?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you check if you have rooms open on next Friday?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you check if you have rooms open on 2027-01-05?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What rooms are available for one guest?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What rooms are available for 2 guests?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What rooms are available for 4 guests?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What rooms are available for a couple?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Do you still have vacancies for tomorrow?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Do you still have vacancies for December 24?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Do you still have vacancies for next Friday?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Do you still have vacancies for 2027-01-05?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to know if you have any open rooms tomorrow",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to know if you have any open rooms December 24",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to know if you have any open rooms next Friday",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to know if you have any open rooms 2027-01-05",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Are you fully booked on tomorrow?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Are you fully booked on December 24?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Are you fully booked on next Friday?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Are you fully booked on 2027-01-05?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Check availability for a standard room",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Check availability for a deluxe room",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Check availability for a family room",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Check availability for a suite",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Do you have space for one guest on tomorrow?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Do you have space for 2 guests on December 24?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Do you have space for 4 guests on next Friday?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Do you have space for a couple on 2027-01-05?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Any standard room left for one night?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Any deluxe room left for 3 nights?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Any family room left for two nights?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Any suite left for a week?",
+      "intent": "check_availability",
+      "source": "notebook training template"
+    },
+    {
+      "text": "How much is a standard room per night?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "How much is a deluxe room per night?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "How much is a family room per night?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "How much is a suite per night?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What's the price for a standard room?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What's the price for a deluxe room?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What's the price for a family room?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What's the price for a suite?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you give me the room rates for tomorrow?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you give me the room rates for December 24?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you give me the room rates for next Friday?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you give me the room rates for 2027-01-05?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "How much does it cost to stay for one night?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "How much does it cost to stay for 3 nights?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "How much does it cost to stay for two nights?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "How much does it cost to stay for a week?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What is the cost of a standard room?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What is the cost of a deluxe room?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What is the cost of a family room?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What is the cost of a suite?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Give me the pricing for one guest",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Give me the pricing for 2 guests",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Give me the pricing for 4 guests",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Give me the pricing for a couple",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "How much would one night in a standard room cost?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "How much would 3 nights in a deluxe room cost?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "How much would two nights in a family room cost?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "How much would a week in a suite cost?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What are your rates for tomorrow?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What are your rates for December 24?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What are your rates for next Friday?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What are your rates for 2027-01-05?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Is there a discount for one night stays?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Is there a discount for 3 nights stays?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Is there a discount for two nights stays?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Is there a discount for a week stays?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "How expensive is the standard room?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "How expensive is the deluxe room?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "How expensive is the family room?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "How expensive is the suite?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Price check for a standard room please",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Price check for a deluxe room please",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Price check for a family room please",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Price check for a suite please",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What's the nightly rate for a standard room?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What's the nightly rate for a deluxe room?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What's the nightly rate for a family room?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "What's the nightly rate for a suite?",
+      "intent": "check_price",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to cancel my reservation",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to cancel my reservation",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to cancel my reservation",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to cancel my reservation",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Please cancel booking number BR-12345678AB",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Please cancel booking number BR-87654321CD",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Please cancel booking number BR-23456789EF",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Please cancel booking number BR-98765432AB",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you cancel my room booking?",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you cancel my room booking?",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you cancel my room booking?",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you cancel my room booking?",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need to cancel my stay on tomorrow",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need to cancel my stay on December 24",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need to cancel my stay on next Friday",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need to cancel my stay on 2027-01-05",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Cancel reservation BR-12345678AB please",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Cancel reservation BR-87654321CD please",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Cancel reservation BR-23456789EF please",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Cancel reservation BR-98765432AB please",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to cancel my hotel reservation",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to cancel my hotel reservation",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to cancel my hotel reservation",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to cancel my hotel reservation",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Please cancel my booking for tomorrow",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Please cancel my booking for December 24",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Please cancel my booking for next Friday",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Please cancel my booking for 2027-01-05",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I won't be able to make it, cancel my reservation BR-12345678AB",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I won't be able to make it, cancel my reservation BR-87654321CD",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I won't be able to make it, cancel my reservation BR-23456789EF",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I won't be able to make it, cancel my reservation BR-98765432AB",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Cancel my standard room booking",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Cancel my deluxe room booking",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Cancel my family room booking",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Cancel my suite booking",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need to cancel, my plans changed",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need to cancel, my plans changed",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need to cancel, my plans changed",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need to cancel, my plans changed",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you void booking BR-12345678AB?",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you void booking BR-87654321CD?",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you void booking BR-23456789EF?",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you void booking BR-98765432AB?",
+      "intent": "cancel_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I change my check-in date to tomorrow?",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I change my check-in date to December 24?",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I change my check-in date to next Friday?",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I change my check-in date to 2027-01-05?",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need to modify my reservation BR-12345678AB",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need to modify my reservation BR-87654321CD",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need to modify my reservation BR-23456789EF",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need to modify my reservation BR-98765432AB",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to change my standard room to a different type",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to change my deluxe room to a different type",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to change my family room to a different type",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to change my suite to a different type",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you move my booking to tomorrow?",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you move my booking to December 24?",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you move my booking to next Friday?",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can you move my booking to 2027-01-05?",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to update my reservation BR-12345678AB",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to update my reservation BR-87654321CD",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to update my reservation BR-23456789EF",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I want to update my reservation BR-98765432AB",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Change my booking from one night to a longer stay",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Change my booking from 3 nights to a longer stay",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Change my booking from two nights to a longer stay",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Change my booking from a week to a longer stay",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I add an extra guest to reservation BR-12345678AB?",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I add an extra guest to reservation BR-87654321CD?",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I add an extra guest to reservation BR-23456789EF?",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I add an extra guest to reservation BR-98765432AB?",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need to reschedule my check-in to tomorrow",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need to reschedule my check-in to December 24",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need to reschedule my check-in to next Friday",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I need to reschedule my check-in to 2027-01-05",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Please update my booking details for BR-12345678AB",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Please update my booking details for BR-87654321CD",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Please update my booking details for BR-23456789EF",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Please update my booking details for BR-98765432AB",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I switch my room to a standard room?",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I switch my room to a deluxe room?",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I switch my room to a family room?",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "Can I switch my room to a suite?",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to extend my stay to one night",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to extend my stay to 3 nights",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to extend my stay to two nights",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "I'd like to extend my stay to a week",
+      "intent": "modify_booking",
+      "source": "notebook training template"
+    },
+    {
+      "text": "hi",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "hello",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "hey there",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "good morning",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "good afternoon",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "good evening",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "hi there",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "hello, is anyone there",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "hey, I have a question",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "greetings",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "hi, I need some help",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "good day",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "hey",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "hello there",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "morning",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "hi, are you available",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "hello, I need assistance",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "hiya",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "good evening, I have a question",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "hey, can you help me",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "hi assistant",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "hello hotel assistant",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "hi, quick question",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "good morning, I need some info",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "hey there, how are you",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "hello, may I ask something",
+      "intent": "greeting",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "bye",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "goodbye",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "see you later",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "thanks, bye",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "that's all, goodbye",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "have a nice day, bye",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "ok bye",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "talk to you later",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "see you",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "farewell",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "alright, goodbye then",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "I'm done, thank you and goodbye",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "catch you later",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "bye bye",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "that's all for now, bye",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "ok, thanks, that's it",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "see ya",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "goodnight",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "alright thanks, gotta go",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "that will be all, bye",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "no more questions, bye",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "ok goodbye then",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "thank you, that's all I needed",
+      "intent": "goodbye",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "thank you",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "thanks a lot",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "thank you so much",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "I appreciate it",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "thanks for your help",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "much appreciated",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "thank you very much",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "great, thanks",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "awesome, thank you",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "thanks for the information",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "cool, thanks a bunch",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "perfect, thank you",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "thanks, that's helpful",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "appreciate the help",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "thank you kindly",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "thanks a million",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "you're a great help, thanks",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "thanks so much for clarifying",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "great, appreciate it",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "thank you for the quick response",
+      "intent": "thanks",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What time is check-in?",
+      "intent": "checkin_checkout_time",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "When do I need to check out?",
+      "intent": "checkin_checkout_time",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What's your check-out time?",
+      "intent": "checkin_checkout_time",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What time can I check in?",
+      "intent": "checkin_checkout_time",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is early check-in available?",
+      "intent": "checkin_checkout_time",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Can I get a late check-out?",
+      "intent": "checkin_checkout_time",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "When does check-in start?",
+      "intent": "checkin_checkout_time",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What are your check-in and check-out hours?",
+      "intent": "checkin_checkout_time",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is there a fee for late check-out?",
+      "intent": "checkin_checkout_time",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Can I check in early?",
+      "intent": "checkin_checkout_time",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What time should I arrive for check-in?",
+      "intent": "checkin_checkout_time",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Until what time can I check out?",
+      "intent": "checkin_checkout_time",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you allow late check-in at night?",
+      "intent": "checkin_checkout_time",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is midnight check-in possible?",
+      "intent": "checkin_checkout_time",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "How late can I check out without extra charge?",
+      "intent": "checkin_checkout_time",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What's the earliest check-in time?",
+      "intent": "checkin_checkout_time",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Can I request early check-in for an extra fee?",
+      "intent": "checkin_checkout_time",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What time does check-out end?",
+      "intent": "checkin_checkout_time",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you have a swimming pool?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is breakfast included?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you have free wifi?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is there a gym in the hotel?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you offer airport shuttle service?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is parking available?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you have a spa?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Are pets allowed?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is there room service?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do the rooms have air conditioning?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you have a restaurant on site?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is there a fitness center?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you have laundry service?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is there a business center?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you have a kids' play area?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is there a bar or lounge?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do rooms come with a minibar?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is there a conference room available?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you provide extra towels and toiletries?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is smoking allowed in the rooms?",
+      "intent": "amenities_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Where is the hotel located?",
+      "intent": "location_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "How far are you from the airport?",
+      "intent": "location_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What's your address?",
+      "intent": "location_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Are you near the city center?",
+      "intent": "location_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "How do I get to the hotel from the train station?",
+      "intent": "location_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is the hotel close to the beach?",
+      "intent": "location_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What's nearby the hotel?",
+      "intent": "location_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "How far is the hotel from downtown?",
+      "intent": "location_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Can you give me directions to the hotel?",
+      "intent": "location_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is there public transport nearby?",
+      "intent": "location_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What landmarks are close to the hotel?",
+      "intent": "location_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "How many minutes from the airport is the hotel?",
+      "intent": "location_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is the mall walking distance from here?",
+      "intent": "location_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What's the nearest tourist spot to the hotel?",
+      "intent": "location_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you have a map or directions guide?",
+      "intent": "location_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What payment methods do you accept?",
+      "intent": "payment_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Can I pay with a credit card?",
+      "intent": "payment_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you accept cash payments?",
+      "intent": "payment_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is a deposit required?",
+      "intent": "payment_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Can I pay online?",
+      "intent": "payment_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you take PayPal?",
+      "intent": "payment_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "When do I need to pay?",
+      "intent": "payment_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is payment required upfront?",
+      "intent": "payment_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Can I pay upon arrival?",
+      "intent": "payment_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you accept GCash?",
+      "intent": "payment_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you accept debit cards?",
+      "intent": "payment_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is there a cancellation fee if I don't pay the deposit?",
+      "intent": "payment_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Can I split the payment?",
+      "intent": "payment_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you accept bank transfer?",
+      "intent": "payment_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is the total amount charged immediately?",
+      "intent": "payment_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "My room is dirty",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "The air conditioning is not working",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "I am not happy with the service",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "The room wasn't as described",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "There's no hot water in my room",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "The staff was rude to me",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "My room was not ready on time",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "The noise from the hallway kept me up all night",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "I found the room unclean upon arrival",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "The wifi doesn't work in my room",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "I'm very disappointed with my stay",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "This is unacceptable, the room has issues",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "The bathroom is not working properly",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "My towels were never replaced",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "There's a bad smell in the room",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "The bed sheets weren't changed",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "I was overcharged on my bill",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Housekeeping never came to my room",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "The elevator has been broken all day",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "I want to file a complaint about my stay",
+      "intent": "complaint",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Can I talk to a real person?",
+      "intent": "request_human_agent",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Connect me to a staff member",
+      "intent": "request_human_agent",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "I want to speak with customer service",
+      "intent": "request_human_agent",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Can you transfer me to an agent?",
+      "intent": "request_human_agent",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "I need to talk to someone from the hotel",
+      "intent": "request_human_agent",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "this isn't helping, get me a human",
+      "intent": "request_human_agent",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Is there a live agent available?",
+      "intent": "request_human_agent",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "I'd like to speak to the manager",
+      "intent": "request_human_agent",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Put me through to reception",
+      "intent": "request_human_agent",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Can a real person assist me instead?",
+      "intent": "request_human_agent",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "I need to speak with a human representative",
+      "intent": "request_human_agent",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Please connect me to the front desk",
+      "intent": "request_human_agent",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Can someone from support call me?",
+      "intent": "request_human_agent",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "I don't want a bot, I want a person",
+      "intent": "request_human_agent",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What types of rooms do you have?",
+      "intent": "room_types_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you have family suites?",
+      "intent": "room_types_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What room categories are available?",
+      "intent": "room_types_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Tell me about your room options",
+      "intent": "room_types_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you offer connecting rooms?",
+      "intent": "room_types_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What's the difference between deluxe and standard rooms?",
+      "intent": "room_types_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you have rooms with a view?",
+      "intent": "room_types_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What amenities come with the suite?",
+      "intent": "room_types_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "How big are your standard rooms?",
+      "intent": "room_types_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you have accessible rooms for guests with disabilities?",
+      "intent": "room_types_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What's included in the executive room?",
+      "intent": "room_types_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you offer rooms with a balcony?",
+      "intent": "room_types_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What's your largest room type?",
+      "intent": "room_types_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Can you describe the presidential suite?",
+      "intent": "room_types_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Do you have non-smoking rooms?",
+      "intent": "room_types_inquiry",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What's the weather like today?",
+      "intent": "out_of_scope",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Tell me a joke",
+      "intent": "out_of_scope",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Who is the president of the Philippines?",
+      "intent": "out_of_scope",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What's 2 plus 2?",
+      "intent": "out_of_scope",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Can you recommend a good movie?",
+      "intent": "out_of_scope",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "How do I bake a chocolate cake?",
+      "intent": "out_of_scope",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What's the capital of France?",
+      "intent": "out_of_scope",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Sing me a song",
+      "intent": "out_of_scope",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What time is it right now?",
+      "intent": "out_of_scope",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Can you help me with my homework?",
+      "intent": "out_of_scope",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What's the meaning of life?",
+      "intent": "out_of_scope",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Tell me about the stock market",
+      "intent": "out_of_scope",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What's the best programming language?",
+      "intent": "out_of_scope",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Can you write me a poem?",
+      "intent": "out_of_scope",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Who won the basketball game last night?",
+      "intent": "out_of_scope",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "What's trending on social media?",
+      "intent": "out_of_scope",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "How do I fix my wifi router at home?",
+      "intent": "out_of_scope",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "Recommend a restaurant that's not related to this hotel",
+      "intent": "out_of_scope",
+      "source": "notebook training fixed phrase"
+    },
+    {
+      "text": "I need accommodation for my trip",
+      "intent": "book_room",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Arrange a hotel stay for us",
+      "intent": "book_room",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Could you secure a room for my holiday",
+      "intent": "book_room",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "I would like somewhere to sleep tonight",
+      "intent": "book_room",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Make a room reservation please",
+      "intent": "book_room",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Looking to reserve lodging",
+      "intent": "book_room",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "We need to stay at your hotel",
+      "intent": "book_room",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Please set aside a deluxe for me",
+      "intent": "book_room",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Any vacancies for our visit",
+      "intent": "check_availability",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Are rooms sold out for those dates",
+      "intent": "check_availability",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Is there space in the hotel",
+      "intent": "check_availability",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Anything unoccupied next Saturday",
+      "intent": "check_availability",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Would a suite be free then",
+      "intent": "check_availability",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Is accommodation still available",
+      "intent": "check_availability",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Do you have openings next week",
+      "intent": "check_availability",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Please check whether there is a room left",
+      "intent": "check_availability",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "What is the total for my stay",
+      "intent": "check_price",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Give me a quote please",
+      "intent": "check_price",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "How much money will I pay",
+      "intent": "check_price",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "What would that set me back",
+      "intent": "check_price",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Can you estimate the expense",
+      "intent": "check_price",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "How costly is accommodation",
+      "intent": "check_price",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "What is the tariff for deluxe",
+      "intent": "check_price",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Show the price breakdown",
+      "intent": "check_price",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Delete my reservation please",
+      "intent": "cancel_booking",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Call off the hotel stay",
+      "intent": "cancel_booking",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "I will not be coming anymore",
+      "intent": "cancel_booking",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Withdraw my room reservation",
+      "intent": "cancel_booking",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Void the reservation",
+      "intent": "cancel_booking",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "My plans fell through please cancel",
+      "intent": "cancel_booking",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Cancel the hotel booking",
+      "intent": "cancel_booking",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "I need to abandon my stay",
+      "intent": "cancel_booking",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Alter the dates for my visit",
+      "intent": "modify_booking",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Reschedule my stay please",
+      "intent": "modify_booking",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Move my reservation to another day",
+      "intent": "modify_booking",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Extend my stay by another night",
+      "intent": "modify_booking",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Shorten my reservation",
+      "intent": "modify_booking",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Upgrade my room category",
+      "intent": "modify_booking",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Adjust the arrival date",
+      "intent": "modify_booking",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Change how many people are staying",
+      "intent": "modify_booking",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Good afternoon assistant",
+      "intent": "greeting",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Hello there can you help",
+      "intent": "greeting",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Hey hotel team",
+      "intent": "greeting",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Hi everyone",
+      "intent": "greeting",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Greetings hotel",
+      "intent": "greeting",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Howdy",
+      "intent": "greeting",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Morning reception",
+      "intent": "greeting",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Good evening to you",
+      "intent": "greeting",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "I am leaving the conversation",
+      "intent": "goodbye",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "That is everything see you",
+      "intent": "goodbye",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "I have to go now",
+      "intent": "goodbye",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Bye and take care",
+      "intent": "goodbye",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "I am done for now",
+      "intent": "goodbye",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Until next time",
+      "intent": "goodbye",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "See you soon goodbye",
+      "intent": "goodbye",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Thanks I will go now",
+      "intent": "goodbye",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "You helped a lot thanks",
+      "intent": "thanks",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "I am grateful for the help",
+      "intent": "thanks",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "That clears it up thank you",
+      "intent": "thanks",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Cheers for the information",
+      "intent": "thanks",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Many thanks to you",
+      "intent": "thanks",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Much obliged",
+      "intent": "thanks",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Appreciated thank you",
+      "intent": "thanks",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Thank you that makes sense",
+      "intent": "thanks",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "When can we arrive at the hotel",
+      "intent": "checkin_checkout_time",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "What is the latest departure time",
+      "intent": "checkin_checkout_time",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Can I arrive before normal check-in",
+      "intent": "checkin_checkout_time",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "What are arrival and departure hours",
+      "intent": "checkin_checkout_time",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "When must we leave our room",
+      "intent": "checkin_checkout_time",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Is checkout at noon",
+      "intent": "checkin_checkout_time",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Do you support early arrival",
+      "intent": "checkin_checkout_time",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Can I leave the room later",
+      "intent": "checkin_checkout_time",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Does the property have internet",
+      "intent": "amenities_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Is there complimentary breakfast",
+      "intent": "amenities_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Is a fitness centre on site",
+      "intent": "amenities_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Can I bring my pet to the hotel",
+      "intent": "amenities_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Do you provide laundry facilities",
+      "intent": "amenities_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Is there a swimming area",
+      "intent": "amenities_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "What guest facilities are offered",
+      "intent": "amenities_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Is parking included at your hotel",
+      "intent": "amenities_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Tell me the hotel street address",
+      "intent": "location_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Where exactly is this property",
+      "intent": "location_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Can you provide directions",
+      "intent": "location_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "How close is the airport",
+      "intent": "location_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "What neighbourhood is the hotel in",
+      "intent": "location_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Where can I find your building",
+      "intent": "location_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "What attractions are nearby",
+      "intent": "location_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Send the hotel location",
+      "intent": "location_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "How can I settle the bill",
+      "intent": "payment_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Can I pay using GCash",
+      "intent": "payment_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Do you take cash or cards",
+      "intent": "payment_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Are bank transfers supported",
+      "intent": "payment_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Is a down payment needed",
+      "intent": "payment_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Do I pay at arrival",
+      "intent": "payment_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Can I use a debit card",
+      "intent": "payment_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "What payment options do you support",
+      "intent": "payment_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "The room smells terrible",
+      "intent": "complaint",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "I cannot sleep because of noise",
+      "intent": "complaint",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "My shower has no hot water",
+      "intent": "complaint",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Housekeeping missed my room",
+      "intent": "complaint",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "The hotel internet is broken",
+      "intent": "complaint",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "I am unhappy with the room",
+      "intent": "complaint",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Reception treated me badly",
+      "intent": "complaint",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "The aircon is broken",
+      "intent": "complaint",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Please let me speak with reception",
+      "intent": "request_human_agent",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Get a human to assist",
+      "intent": "request_human_agent",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "I need an actual staff member",
+      "intent": "request_human_agent",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Is a manager available to talk",
+      "intent": "request_human_agent",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "I do not want automated assistance",
+      "intent": "request_human_agent",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Put me in touch with customer support",
+      "intent": "request_human_agent",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Give me the front desk contact",
+      "intent": "request_human_agent",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "May I speak with a live representative",
+      "intent": "request_human_agent",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Describe the accommodation categories",
+      "intent": "room_types_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Which room would fit our family",
+      "intent": "room_types_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "What distinguishes your room types",
+      "intent": "room_types_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "List all room categories",
+      "intent": "room_types_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Show me the room catalog",
+      "intent": "room_types_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "What rooms can I choose from",
+      "intent": "room_types_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "What is included in a deluxe room",
+      "intent": "room_types_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Compare standard and suite rooms",
+      "intent": "room_types_inquiry",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "How do I repair a router in my house",
+      "intent": "out_of_scope",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Do my mathematics assignment",
+      "intent": "out_of_scope",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Discuss elections with me",
+      "intent": "out_of_scope",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Give me investing tips",
+      "intent": "out_of_scope",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "What is tomorrow weather forecast",
+      "intent": "out_of_scope",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Write a computer program",
+      "intent": "out_of_scope",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Explain a chemistry problem",
+      "intent": "out_of_scope",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "Who won the football match",
+      "intent": "out_of_scope",
+      "source": "implementation training expansion"
+    },
+    {
+      "text": "i wanna book",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "book me in please",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "can i grab a room for friday",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "need a place to crash for 2 nights",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "reserve something for me and my wife",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "room for one person please",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "I would like to stay with you in december",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "sign me up for a deluxe",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "we want to stay 3 nights",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "can I make a booking for my parents",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "lemme book a suite",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "booking for 2 adults and 2 kids",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "hold a room for me next friday",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "i need accommodation for a business trip",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "I want to stay at your hotel",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "pls book standard room",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "we are planning a vacation and need a room",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "get us a room for the holidays",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "book a room under my name",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "i would like to reserve for the 15th",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "can you put us in a family room",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "start a new reservation",
+      "intent": "book_room",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "are there rooms left",
+      "intent": "check_availability",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "do you have space for 4 people",
+      "intent": "check_availability",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "anything available this saturday",
+      "intent": "check_availability",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is the suite taken on the 10th",
+      "intent": "check_availability",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "can you check if you have rooms",
+      "intent": "check_availability",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "got any free rooms tomorrow night",
+      "intent": "check_availability",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is there room for us on december 31",
+      "intent": "check_availability",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "still accepting guests for christmas eve",
+      "intent": "check_availability",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "any openings in january",
+      "intent": "check_availability",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is everything booked up",
+      "intent": "check_availability",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is a family room open for 2 nights",
+      "intent": "check_availability",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what is available on friday",
+      "intent": "check_availability",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "can i check availability",
+      "intent": "check_availability",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "do you have a deluxe free",
+      "intent": "check_availability",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "are rooms open for new year",
+      "intent": "check_availability",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "check if a standard room is free tonight",
+      "intent": "check_availability",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "any space left for the weekend",
+      "intent": "check_availability",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "how many rooms are free",
+      "intent": "check_availability",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "how much",
+      "intent": "check_price",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what does it cost",
+      "intent": "check_price",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "price please",
+      "intent": "check_price",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "how much for one night",
+      "intent": "check_price",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "rates for a family room",
+      "intent": "check_price",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what will i pay for 3 nights",
+      "intent": "check_price",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is it expensive",
+      "intent": "check_price",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what is the total for a week",
+      "intent": "check_price",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "cost per night",
+      "intent": "check_price",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "how much do your rooms go for",
+      "intent": "check_price",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "can i get a price estimate",
+      "intent": "check_price",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what is the room rate",
+      "intent": "check_price",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "how pricey is the suite",
+      "intent": "check_price",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "tell me the price of a deluxe",
+      "intent": "check_price",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what do you charge per night",
+      "intent": "check_price",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "whats the cost of staying 2 nights",
+      "intent": "check_price",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "cheapest option",
+      "intent": "check_price",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "most affordable room",
+      "intent": "check_price",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "how much is the most expensive room",
+      "intent": "check_price",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "cancel",
+      "intent": "cancel_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "cancel please",
+      "intent": "cancel_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "i want to cancel",
+      "intent": "cancel_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "i no longer need the room",
+      "intent": "cancel_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "please scrap my reservation",
+      "intent": "cancel_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "we wont be coming, cancel",
+      "intent": "cancel_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "cancel reservation BR-55AA66BB",
+      "intent": "cancel_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "my trip got cancelled so cancel my booking",
+      "intent": "cancel_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "i have to cancel my stay",
+      "intent": "cancel_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "get rid of my booking",
+      "intent": "cancel_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "terminate my reservation",
+      "intent": "cancel_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "remove my booking",
+      "intent": "cancel_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "i changed my mind and dont want the room anymore",
+      "intent": "cancel_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "abort my reservation",
+      "intent": "cancel_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "how do i cancel my booking",
+      "intent": "cancel_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "not coming anymore please cancel",
+      "intent": "cancel_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "cancel my stay for next week",
+      "intent": "cancel_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "i need a cancellation",
+      "intent": "cancel_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "change my booking",
+      "intent": "modify_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "i need to change my dates",
+      "intent": "modify_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "can i extend my stay",
+      "intent": "modify_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "add one more night please",
+      "intent": "modify_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "make it 4 guests instead",
+      "intent": "modify_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "upgrade me to a suite",
+      "intent": "modify_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "shorten my stay by a night",
+      "intent": "modify_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "switch to a different room",
+      "intent": "modify_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "can i edit my reservation",
+      "intent": "modify_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "change the number of guests",
+      "intent": "modify_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "move my check in to the 20th",
+      "intent": "modify_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "update my reservation dates",
+      "intent": "modify_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "i want to stay longer",
+      "intent": "modify_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "push my booking by one day",
+      "intent": "modify_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "reschedule please",
+      "intent": "modify_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "change my room type",
+      "intent": "modify_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "modify reservation BR-77CC88DD",
+      "intent": "modify_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "can i change my check-out date",
+      "intent": "modify_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "hello hello",
+      "intent": "greeting",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "hiii",
+      "intent": "greeting",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "helloo",
+      "intent": "greeting",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "yo",
+      "intent": "greeting",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "sup",
+      "intent": "greeting",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "hey assistant",
+      "intent": "greeting",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "hi, i have a question",
+      "intent": "greeting",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "hello, can you help me",
+      "intent": "greeting",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "good afternoon!",
+      "intent": "greeting",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "hey how are you",
+      "intent": "greeting",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "kumusta",
+      "intent": "greeting",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "bye now",
+      "intent": "goodbye",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "goodbye and take care",
+      "intent": "goodbye",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "i am leaving now",
+      "intent": "goodbye",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "later",
+      "intent": "goodbye",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "that is all, bye",
+      "intent": "goodbye",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "have a good day, bye",
+      "intent": "goodbye",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "im done",
+      "intent": "goodbye",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "i will go now",
+      "intent": "goodbye",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "ok that is everything, goodbye",
+      "intent": "goodbye",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "see you soon",
+      "intent": "goodbye",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "take care",
+      "intent": "goodbye",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "peace out",
+      "intent": "goodbye",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "farewell then",
+      "intent": "goodbye",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "thank u",
+      "intent": "thanks",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "ty",
+      "intent": "thanks",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "thx",
+      "intent": "thanks",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "many thanks",
+      "intent": "thanks",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "thanks for the help",
+      "intent": "thanks",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "appreciate it",
+      "intent": "thanks",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "awesome thanks",
+      "intent": "thanks",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "great help",
+      "intent": "thanks",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "that helps a lot",
+      "intent": "thanks",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "cool thanks",
+      "intent": "thanks",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "salamat",
+      "intent": "thanks",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "check in time",
+      "intent": "checkin_checkout_time",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "checkout time",
+      "intent": "checkin_checkout_time",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "when is check in",
+      "intent": "checkin_checkout_time",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what time is checkout",
+      "intent": "checkin_checkout_time",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "when can i get my room",
+      "intent": "checkin_checkout_time",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what time can we arrive",
+      "intent": "checkin_checkout_time",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "until when can i stay on my last day",
+      "intent": "checkin_checkout_time",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "when do i need to leave",
+      "intent": "checkin_checkout_time",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "check-in hours",
+      "intent": "checkin_checkout_time",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what time do i have to check out",
+      "intent": "checkin_checkout_time",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "earliest check in",
+      "intent": "checkin_checkout_time",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "latest check out time",
+      "intent": "checkin_checkout_time",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what time does check in start",
+      "intent": "checkin_checkout_time",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "can i arrive at night",
+      "intent": "checkin_checkout_time",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is late arrival ok",
+      "intent": "checkin_checkout_time",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what amenities do you have",
+      "intent": "amenities_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "hotel facilities",
+      "intent": "amenities_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "do you have a pool",
+      "intent": "amenities_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is there wifi",
+      "intent": "amenities_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is breakfast included",
+      "intent": "amenities_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "do you have parking",
+      "intent": "amenities_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is there a gym",
+      "intent": "amenities_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what is included in the room rate",
+      "intent": "amenities_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what services do you offer",
+      "intent": "amenities_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "do you have a spa",
+      "intent": "amenities_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is there a restaurant",
+      "intent": "amenities_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "any facilities for kids",
+      "intent": "amenities_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "do rooms have a tv",
+      "intent": "amenities_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is there a bar",
+      "intent": "amenities_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "do you allow pets",
+      "intent": "amenities_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is there room service",
+      "intent": "amenities_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what does the hotel offer",
+      "intent": "amenities_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "can i use the pool",
+      "intent": "amenities_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is there free breakfast",
+      "intent": "amenities_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "where are you",
+      "intent": "location_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "location please",
+      "intent": "location_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "whats the address",
+      "intent": "location_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "how far are you from the airport",
+      "intent": "location_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "which area is the hotel in",
+      "intent": "location_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "are you in manila",
+      "intent": "location_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "how do i get to the hotel",
+      "intent": "location_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what is the nearest mall",
+      "intent": "location_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is it walkable to restaurants",
+      "intent": "location_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "send me the address",
+      "intent": "location_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "where is the hotel located",
+      "intent": "location_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "how far is the city center",
+      "intent": "location_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what is around the hotel",
+      "intent": "location_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "directions to the hotel please",
+      "intent": "location_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is there a train station near you",
+      "intent": "location_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "how do i pay",
+      "intent": "payment_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "payment methods",
+      "intent": "payment_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "do you take cash",
+      "intent": "payment_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "can i pay online",
+      "intent": "payment_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is gcash accepted",
+      "intent": "payment_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "do you take visa",
+      "intent": "payment_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "when do i pay",
+      "intent": "payment_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "do i pay now or later",
+      "intent": "payment_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is a deposit required",
+      "intent": "payment_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "can i pay at the hotel",
+      "intent": "payment_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "mastercard ok?",
+      "intent": "payment_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "do you accept paymaya",
+      "intent": "payment_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "do i need a credit card to book",
+      "intent": "payment_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "can i pay in installments",
+      "intent": "payment_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "pay on arrival possible?",
+      "intent": "payment_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "cancellation policy",
+      "intent": "cancellation_policy",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "can i cancel for free",
+      "intent": "cancellation_policy",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is there a cancellation fee",
+      "intent": "cancellation_policy",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what if i need to cancel later",
+      "intent": "cancellation_policy",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "do you refund if i cancel",
+      "intent": "cancellation_policy",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "how late can i cancel",
+      "intent": "cancellation_policy",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is my booking refundable",
+      "intent": "cancellation_policy",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what happens if i do not show up",
+      "intent": "cancellation_policy",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "free cancellation?",
+      "intent": "cancellation_policy",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "cancellation terms",
+      "intent": "cancellation_policy",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "are there penalties for cancelling",
+      "intent": "cancellation_policy",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "refund policy",
+      "intent": "cancellation_policy",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "show my booking",
+      "intent": "view_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "check my reservation",
+      "intent": "view_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what is my reservation status",
+      "intent": "view_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "look up booking BR-99EE00FF",
+      "intent": "view_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "can i see my reservation",
+      "intent": "view_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "view my booking details",
+      "intent": "view_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is my booking confirmed",
+      "intent": "view_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "find my booking",
+      "intent": "view_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what did i book",
+      "intent": "view_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "reservation status please",
+      "intent": "view_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "show me my reservation details",
+      "intent": "view_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "retrieve my booking",
+      "intent": "view_booking",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "the ac is not working",
+      "intent": "complaint",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "the toilet is broken",
+      "intent": "complaint",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "it is too noisy",
+      "intent": "complaint",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "i am not happy",
+      "intent": "complaint",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "terrible service",
+      "intent": "complaint",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "i want to complain",
+      "intent": "complaint",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "there are bugs in my room",
+      "intent": "complaint",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "the shower has no hot water",
+      "intent": "complaint",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "the wifi keeps disconnecting",
+      "intent": "complaint",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "staff ignored me",
+      "intent": "complaint",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "this is unacceptable",
+      "intent": "complaint",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "my room smells bad",
+      "intent": "complaint",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "very disappointed with my stay",
+      "intent": "complaint",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "talk to a person",
+      "intent": "request_human_agent",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "agent please",
+      "intent": "request_human_agent",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "human please",
+      "intent": "request_human_agent",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "can i speak to someone",
+      "intent": "request_human_agent",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "i need a real human",
+      "intent": "request_human_agent",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "transfer me to reception",
+      "intent": "request_human_agent",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "let me talk to the manager",
+      "intent": "request_human_agent",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "call me please",
+      "intent": "request_human_agent",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "connect me with staff",
+      "intent": "request_human_agent",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "i want to speak to customer service",
+      "intent": "request_human_agent",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "is there a live person",
+      "intent": "request_human_agent",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "speak to front desk",
+      "intent": "request_human_agent",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what rooms do you have",
+      "intent": "room_types_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "room types",
+      "intent": "room_types_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "show me the rooms",
+      "intent": "room_types_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what kind of rooms are available",
+      "intent": "room_types_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "tell me about the deluxe room",
+      "intent": "room_types_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "how big is the suite",
+      "intent": "room_types_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "which room is best for a couple",
+      "intent": "room_types_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what room is good for 4 people",
+      "intent": "room_types_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "difference between rooms",
+      "intent": "room_types_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "how many people fit in a standard room",
+      "intent": "room_types_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "do you have rooms for families",
+      "intent": "room_types_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what is the largest room",
+      "intent": "room_types_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "list your rooms",
+      "intent": "room_types_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "room options please",
+      "intent": "room_types_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what beds do the rooms have",
+      "intent": "room_types_inquiry",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what is the weather tomorrow",
+      "intent": "out_of_scope",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "tell me a story",
+      "intent": "out_of_scope",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "who is the president",
+      "intent": "out_of_scope",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "can you do my homework",
+      "intent": "out_of_scope",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what is bitcoin",
+      "intent": "out_of_scope",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "recommend a movie",
+      "intent": "out_of_scope",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "how old are you",
+      "intent": "out_of_scope",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "sing a song",
+      "intent": "out_of_scope",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what is 5 times 7",
+      "intent": "out_of_scope",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "write an essay for me",
+      "intent": "out_of_scope",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "what is love",
+      "intent": "out_of_scope",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "how do i lose weight",
+      "intent": "out_of_scope",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "who will win the election",
+      "intent": "out_of_scope",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "explain quantum physics",
+      "intent": "out_of_scope",
+      "source": "mvp_augmentation_2026_10"
+    },
+    {
+      "text": "book a flight for me",
+      "intent": "out_of_scope",
+      "source": "mvp_augmentation_2026_10"
+    }
+  ]
+}

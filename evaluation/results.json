@@ -1,0 +1,1688 @@
+{
+  "dataset_status": "Original 96-message notebook holdout. Inspected before implementation; regression benchmark, not independent evaluation for revised engine.",
+  "sample_count": 96,
+  "training_examples": 849,
+  "generated_at": "2026-10-16T06:52:40.745544+00:00",
+  "historical_notebook": {
+    "templated_accuracy": 0.9423,
+    "original_holdout_accuracy": 0.4688
+  },
+  "classifier": {
+    "correct": 65,
+    "incorrect": 31,
+    "accuracy": 0.6770833333333334,
+    "macro_precision": 0.7793402777777778,
+    "macro_recall": 0.6770833333333333,
+    "macro_f1": 0.6991612554112554,
+    "abstentions": 6,
+    "coverage": 0.9375,
+    "selective_accuracy": 0.7222222222222222,
+    "per_class": {
+      "amenities_inquiry": {
+        "precision": 0.6,
+        "recall": 0.5,
+        "f1-score": 0.5454545454545454,
+        "support": 6.0
+      },
+      "book_room": {
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1-score": 0.8571428571428571,
+        "support": 6.0
+      },
+      "cancel_booking": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.8,
+        "support": 6.0
+      },
+      "check_availability": {
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1-score": 0.8,
+        "support": 6.0
+      },
+      "check_price": {
+        "precision": 0.8,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.7272727272727273,
+        "support": 6.0
+      },
+      "checkin_checkout_time": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6666666666666666,
+        "support": 6.0
+      },
+      "complaint": {
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.8333333333333334,
+        "support": 6.0
+      },
+      "goodbye": {
+        "precision": 0.75,
+        "recall": 0.5,
+        "f1-score": 0.6,
+        "support": 6.0
+      },
+      "greeting": {
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.8333333333333334,
+        "support": 6.0
+      },
+      "location_inquiry": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1-score": 0.6666666666666666,
+        "support": 6.0
+      },
+      "modify_booking": {
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.5,
+        "support": 6.0
+      },
+      "out_of_scope": {
+        "precision": 0.4444444444444444,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.5333333333333333,
+        "support": 6.0
+      },
+      "payment_inquiry": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.8,
+        "support": 6.0
+      },
+      "request_human_agent": {
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.9090909090909091,
+        "support": 6.0
+      },
+      "room_types_inquiry": {
+        "precision": 0.5,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.4,
+        "support": 6.0
+      },
+      "thanks": {
+        "precision": 0.625,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.7142857142857143,
+        "support": 6.0
+      },
+      "fallback": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "micro avg": {
+        "precision": 0.6914893617021277,
+        "recall": 0.6770833333333334,
+        "f1-score": 0.6842105263157895,
+        "support": 96.0
+      },
+      "macro avg": {
+        "precision": 0.7334967320261438,
+        "recall": 0.6372549019607843,
+        "f1-score": 0.6580341227400051,
+        "support": 96.0
+      },
+      "weighted avg": {
+        "precision": 0.7793402777777777,
+        "recall": 0.6770833333333334,
+        "f1-score": 0.6991612554112554,
+        "support": 96.0
+      }
+    }
+  },
+  "hybrid": {
+    "correct": 96,
+    "incorrect": 0,
+    "accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "abstentions": 0,
+    "coverage": 1.0,
+    "selective_accuracy": 1.0,
+    "per_class": {
+      "amenities_inquiry": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "book_room": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "cancel_booking": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "check_availability": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "check_price": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "checkin_checkout_time": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "complaint": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "goodbye": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "greeting": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "location_inquiry": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "modify_booking": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "out_of_scope": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "payment_inquiry": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "request_human_agent": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "room_types_inquiry": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "thanks": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 6.0
+      },
+      "fallback": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 0.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 0.9411764705882353,
+        "recall": 0.9411764705882353,
+        "f1-score": 0.9411764705882353,
+        "support": 96.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 96.0
+      }
+    }
+  },
+  "predictions": [
+    {
+      "text": "yo, anyone home?",
+      "expected": "greeting",
+      "classifier": "greeting",
+      "hybrid": "greeting",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "afternoon! got a sec?",
+      "expected": "greeting",
+      "classifier": "greeting",
+      "hybrid": "greeting",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "hiya, need some info",
+      "expected": "greeting",
+      "classifier": "greeting",
+      "hybrid": "greeting",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "what's up, can you help me out",
+      "expected": "greeting",
+      "classifier": "out_of_scope",
+      "hybrid": "greeting",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "hope you're doing well, quick question for you",
+      "expected": "greeting",
+      "classifier": "greeting",
+      "hybrid": "greeting",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "heya, i have something to ask",
+      "expected": "greeting",
+      "classifier": "greeting",
+      "hybrid": "greeting",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "aight i'm out, thanks",
+      "expected": "goodbye",
+      "classifier": "thanks",
+      "hybrid": "goodbye",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "gonna head off now, cheers",
+      "expected": "goodbye",
+      "classifier": "goodbye",
+      "hybrid": "goodbye",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "that's everything, take it easy",
+      "expected": "goodbye",
+      "classifier": "goodbye",
+      "hybrid": "goodbye",
+      "method": "classifier",
+      "score": 0.7102
+    },
+    {
+      "text": "gotta run, appreciate the chat",
+      "expected": "goodbye",
+      "classifier": "thanks",
+      "hybrid": "goodbye",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "i'll leave it there, bye for now",
+      "expected": "goodbye",
+      "classifier": "goodbye",
+      "hybrid": "goodbye",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "signing off, thanks for your time",
+      "expected": "goodbye",
+      "classifier": "thanks",
+      "hybrid": "goodbye",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "you're a lifesaver, appreciate it",
+      "expected": "thanks",
+      "classifier": "thanks",
+      "hybrid": "thanks",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "that cleared things up, thank you",
+      "expected": "thanks",
+      "classifier": "thanks",
+      "hybrid": "thanks",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "nice, that's exactly what i needed",
+      "expected": "thanks",
+      "classifier": "goodbye",
+      "hybrid": "thanks",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "solid, thanks a ton",
+      "expected": "thanks",
+      "classifier": "thanks",
+      "hybrid": "thanks",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "brilliant, thank you for explaining",
+      "expected": "thanks",
+      "classifier": "thanks",
+      "hybrid": "thanks",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "cheers for that",
+      "expected": "thanks",
+      "classifier": "thanks",
+      "hybrid": "thanks",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "can you set me up with somewhere to stay for the weekend of the 12th",
+      "expected": "book_room",
+      "classifier": "book_room",
+      "hybrid": "book_room",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "looking to lock in a place for my trip in two weeks",
+      "expected": "book_room",
+      "classifier": "book_room",
+      "hybrid": "book_room",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "i need somewhere to crash for a few nights next month",
+      "expected": "book_room",
+      "classifier": "book_room",
+      "hybrid": "book_room",
+      "method": "classifier",
+      "score": 0.4919
+    },
+    {
+      "text": "trying to secure a spot for my anniversary trip",
+      "expected": "book_room",
+      "classifier": "book_room",
+      "hybrid": "book_room",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "put me down for a stay sometime around the holidays",
+      "expected": "book_room",
+      "classifier": "book_room",
+      "hybrid": "book_room",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "we need lodging arranged for our group visit",
+      "expected": "book_room",
+      "classifier": "book_room",
+      "hybrid": "book_room",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "is there anything open around that time",
+      "expected": "check_availability",
+      "classifier": "check_availability",
+      "hybrid": "check_availability",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "not sure if you're fully booked, can you check",
+      "expected": "check_availability",
+      "classifier": "check_availability",
+      "hybrid": "check_availability",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "wondering if you've got space left for my dates",
+      "expected": "check_availability",
+      "classifier": "check_availability",
+      "hybrid": "check_availability",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "any chance you're not sold out that week",
+      "expected": "check_availability",
+      "classifier": "check_availability",
+      "hybrid": "check_availability",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "curious whether rooms are still up for grabs",
+      "expected": "check_availability",
+      "classifier": "check_availability",
+      "hybrid": "check_availability",
+      "method": "classifier",
+      "score": 0.7395
+    },
+    {
+      "text": "got anything free around then",
+      "expected": "check_availability",
+      "classifier": "check_availability",
+      "hybrid": "check_availability",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "what am i looking at cost-wise",
+      "expected": "check_price",
+      "classifier": "check_price",
+      "hybrid": "check_price",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "roughly how much would that set me back",
+      "expected": "check_price",
+      "classifier": "check_price",
+      "hybrid": "check_price",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "curious what the damage would be per night",
+      "expected": "check_price",
+      "classifier": "check_price",
+      "hybrid": "check_price",
+      "method": "classifier",
+      "score": 0.7315
+    },
+    {
+      "text": "any idea on the budget i'd need",
+      "expected": "check_price",
+      "classifier": "check_availability",
+      "hybrid": "check_price",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "what's this gonna run me",
+      "expected": "check_price",
+      "classifier": "out_of_scope",
+      "hybrid": "check_price",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "ballpark figure for a few nights?",
+      "expected": "check_price",
+      "classifier": "check_price",
+      "hybrid": "check_price",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "yeah i need to back out of my reservation",
+      "expected": "cancel_booking",
+      "classifier": "cancel_booking",
+      "hybrid": "cancel_booking",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "things came up, i can't make the trip anymore",
+      "expected": "cancel_booking",
+      "classifier": "complaint",
+      "hybrid": "cancel_booking",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "please scrap my upcoming stay",
+      "expected": "cancel_booking",
+      "classifier": "cancel_booking",
+      "hybrid": "cancel_booking",
+      "method": "classifier",
+      "score": 0.6414
+    },
+    {
+      "text": "i need to pull out of my booking",
+      "expected": "cancel_booking",
+      "classifier": "cancel_booking",
+      "hybrid": "cancel_booking",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "unfortunately i have to withdraw my reservation",
+      "expected": "cancel_booking",
+      "classifier": "cancel_booking",
+      "hybrid": "cancel_booking",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "can you undo my booking for me",
+      "expected": "cancel_booking",
+      "classifier": "book_room",
+      "hybrid": "cancel_booking",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "i need to shuffle around my reservation details",
+      "expected": "modify_booking",
+      "classifier": "view_booking",
+      "hybrid": "modify_booking",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "could we tweak the dates on my booking",
+      "expected": "modify_booking",
+      "classifier": "modify_booking",
+      "hybrid": "modify_booking",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "i'd like to swap out my room for something else",
+      "expected": "modify_booking",
+      "classifier": "book_room",
+      "hybrid": "modify_booking",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "any way to adjust who's staying with me",
+      "expected": "modify_booking",
+      "classifier": "out_of_scope",
+      "hybrid": "modify_booking",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "need to push my trip back a bit",
+      "expected": "modify_booking",
+      "classifier": "modify_booking",
+      "hybrid": "modify_booking",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "can we rework my current booking",
+      "expected": "modify_booking",
+      "classifier": "view_booking",
+      "hybrid": "modify_booking",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "when am i allowed to show up",
+      "expected": "checkin_checkout_time",
+      "classifier": "fallback",
+      "hybrid": "checkin_checkout_time",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "what's the cutoff before i gotta be out",
+      "expected": "checkin_checkout_time",
+      "classifier": "out_of_scope",
+      "hybrid": "checkin_checkout_time",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "how early can i get into my room",
+      "expected": "checkin_checkout_time",
+      "classifier": "checkin_checkout_time",
+      "hybrid": "checkin_checkout_time",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "is there flexibility on when i leave",
+      "expected": "checkin_checkout_time",
+      "classifier": "checkin_checkout_time",
+      "hybrid": "checkin_checkout_time",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "what hours do you run check-in",
+      "expected": "checkin_checkout_time",
+      "classifier": "checkin_checkout_time",
+      "hybrid": "checkin_checkout_time",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "when's the latest i can head out",
+      "expected": "checkin_checkout_time",
+      "classifier": "checkin_checkout_time",
+      "hybrid": "checkin_checkout_time",
+      "method": "classifier",
+      "score": 0.8544
+    },
+    {
+      "text": "what's included with the stay",
+      "expected": "amenities_inquiry",
+      "classifier": "room_types_inquiry",
+      "hybrid": "amenities_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "anything fun to do on site",
+      "expected": "amenities_inquiry",
+      "classifier": "amenities_inquiry",
+      "hybrid": "amenities_inquiry",
+      "method": "classifier",
+      "score": 0.3525
+    },
+    {
+      "text": "do you guys have stuff for kids",
+      "expected": "amenities_inquiry",
+      "classifier": "amenities_inquiry",
+      "hybrid": "amenities_inquiry",
+      "method": "faq retrieval",
+      "score": 0.5723
+    },
+    {
+      "text": "what comes with the room besides the bed",
+      "expected": "amenities_inquiry",
+      "classifier": "room_types_inquiry",
+      "hybrid": "amenities_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "is there anywhere to work out",
+      "expected": "amenities_inquiry",
+      "classifier": "amenities_inquiry",
+      "hybrid": "amenities_inquiry",
+      "method": "classifier",
+      "score": 0.4631
+    },
+    {
+      "text": "got anywhere to grab a bite on property",
+      "expected": "amenities_inquiry",
+      "classifier": "fallback",
+      "hybrid": "amenities_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "how do i actually get there",
+      "expected": "location_inquiry",
+      "classifier": "fallback",
+      "hybrid": "location_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "what's around the area worth checking out",
+      "expected": "location_inquiry",
+      "classifier": "location_inquiry",
+      "hybrid": "location_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "is it a hike from the airport",
+      "expected": "location_inquiry",
+      "classifier": "location_inquiry",
+      "hybrid": "location_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "which part of town are you in",
+      "expected": "location_inquiry",
+      "classifier": "location_inquiry",
+      "hybrid": "location_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "close to anything i'd recognize",
+      "expected": "location_inquiry",
+      "classifier": "fallback",
+      "hybrid": "location_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "how do people usually get to you",
+      "expected": "location_inquiry",
+      "classifier": "fallback",
+      "hybrid": "location_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "how do i actually settle the bill",
+      "expected": "payment_inquiry",
+      "classifier": "payment_inquiry",
+      "hybrid": "payment_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "do you need money up front",
+      "expected": "payment_inquiry",
+      "classifier": "payment_inquiry",
+      "hybrid": "payment_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "what forms of payment work for you",
+      "expected": "payment_inquiry",
+      "classifier": "payment_inquiry",
+      "hybrid": "payment_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "is there flexibility on when i pay",
+      "expected": "payment_inquiry",
+      "classifier": "payment_inquiry",
+      "hybrid": "payment_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "do i owe anything before i arrive",
+      "expected": "payment_inquiry",
+      "classifier": "checkin_checkout_time",
+      "hybrid": "payment_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "can i square up when i get there",
+      "expected": "payment_inquiry",
+      "classifier": "checkin_checkout_time",
+      "hybrid": "payment_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "this really hasn't been a good experience so far",
+      "expected": "complaint",
+      "classifier": "complaint",
+      "hybrid": "complaint",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "somebody dropped the ball on my room",
+      "expected": "complaint",
+      "classifier": "complaint",
+      "hybrid": "complaint",
+      "method": "classifier",
+      "score": 0.7797
+    },
+    {
+      "text": "not thrilled with how things have gone",
+      "expected": "complaint",
+      "classifier": "complaint",
+      "hybrid": "complaint",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "i've had nothing but trouble since i got here",
+      "expected": "complaint",
+      "classifier": "amenities_inquiry",
+      "hybrid": "complaint",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "this isn't what i signed up for",
+      "expected": "complaint",
+      "classifier": "complaint",
+      "hybrid": "complaint",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "i'm frustrated with how my stay has gone",
+      "expected": "complaint",
+      "classifier": "complaint",
+      "hybrid": "complaint",
+      "method": "classifier",
+      "score": 0.5981
+    },
+    {
+      "text": "can someone with actual authority help me",
+      "expected": "request_human_agent",
+      "classifier": "request_human_agent",
+      "hybrid": "request_human_agent",
+      "method": "classifier",
+      "score": 0.6123
+    },
+    {
+      "text": "i'd rather deal with a person on this one",
+      "expected": "request_human_agent",
+      "classifier": "request_human_agent",
+      "hybrid": "request_human_agent",
+      "method": "classifier",
+      "score": 0.5409
+    },
+    {
+      "text": "put me in touch with someone who can actually help",
+      "expected": "request_human_agent",
+      "classifier": "request_human_agent",
+      "hybrid": "request_human_agent",
+      "method": "classifier",
+      "score": 0.6901
+    },
+    {
+      "text": "is there a way around the automated stuff",
+      "expected": "request_human_agent",
+      "classifier": "amenities_inquiry",
+      "hybrid": "request_human_agent",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "i need this escalated to an actual employee",
+      "expected": "request_human_agent",
+      "classifier": "request_human_agent",
+      "hybrid": "request_human_agent",
+      "method": "classifier",
+      "score": 0.4908
+    },
+    {
+      "text": "can i get bumped up to a human",
+      "expected": "request_human_agent",
+      "classifier": "request_human_agent",
+      "hybrid": "request_human_agent",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "what are my choices when it comes to rooms",
+      "expected": "room_types_inquiry",
+      "classifier": "room_types_inquiry",
+      "hybrid": "room_types_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "walk me through what's on offer",
+      "expected": "room_types_inquiry",
+      "classifier": "out_of_scope",
+      "hybrid": "room_types_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "got anything fancier than the basic option",
+      "expected": "room_types_inquiry",
+      "classifier": "fallback",
+      "hybrid": "room_types_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "what separates your room tiers",
+      "expected": "room_types_inquiry",
+      "classifier": "room_types_inquiry",
+      "hybrid": "room_types_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "any options suited for a bigger group",
+      "expected": "room_types_inquiry",
+      "classifier": "check_availability",
+      "hybrid": "room_types_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "what's the range from cheapest to nicest",
+      "expected": "room_types_inquiry",
+      "classifier": "check_price",
+      "hybrid": "room_types_inquiry",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "can you help me pick a birthday gift",
+      "expected": "out_of_scope",
+      "classifier": "greeting",
+      "hybrid": "out_of_scope",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "what's a good workout routine",
+      "expected": "out_of_scope",
+      "classifier": "out_of_scope",
+      "hybrid": "out_of_scope",
+      "method": "classifier",
+      "score": 0.4861
+    },
+    {
+      "text": "explain how blockchain works",
+      "expected": "out_of_scope",
+      "classifier": "out_of_scope",
+      "hybrid": "out_of_scope",
+      "method": "classifier",
+      "score": 0.7704
+    },
+    {
+      "text": "any tips for learning guitar",
+      "expected": "out_of_scope",
+      "classifier": "check_availability",
+      "hybrid": "out_of_scope",
+      "method": "explicit rule",
+      "score": 1.0
+    },
+    {
+      "text": "what's the score of the game last night",
+      "expected": "out_of_scope",
+      "classifier": "out_of_scope",
+      "hybrid": "out_of_scope",
+      "method": "classifier",
+      "score": 0.6238
+    },
+    {
+      "text": "can you translate this sentence for me",
+      "expected": "out_of_scope",
+      "classifier": "out_of_scope",
+      "hybrid": "out_of_scope",
+      "method": "explicit rule",
+      "score": 1.0
+    }
+  ],
+  "limitations": [
+    "Benchmark was inspected before implementation; this is not independent generalization evidence.",
+    "No human usability study or real hotel integration was conducted.",
+    "Abstentions count as incorrect in ordinary accuracy. Rule scores are not calibrated probabilities."
+  ],
+  "independent": {
+    "provenance": "Written on 2026-10-16 before the MVP training-data and FAQ expansion. Not used for training or rule tuning; evaluate only. Intent labels use the 16-intent taxonomy; faq items name the expected hotel_faq topic. Three generic phrases that duplicated original notebook training text were removed on 2026-10-16 (deduplication only; no relabelling).",
+    "intent_count": 60,
+    "faq_count": 37,
+    "classifier": {
+      "correct": 57,
+      "accuracy": 0.95,
+      "macro_f1": 0.9513227513227513,
+      "abstentions": 0
+    },
+    "hybrid": {
+      "correct": 58,
+      "accuracy": 0.9666666666666667,
+      "macro_f1": 0.9737654320987654,
+      "abstentions": 0
+    },
+    "faq_hybrid_accuracy": 1.0,
+    "faq_retrieval_accuracy": 0.7297297297297297,
+    "predictions": [
+      {
+        "text": "I'd like to get a room for the 3rd of December",
+        "expected": "book_room",
+        "classifier": "book_room",
+        "hybrid": "book_room"
+      },
+      {
+        "text": "can you set me up with a deluxe for two nights",
+        "expected": "book_room",
+        "classifier": "book_room",
+        "hybrid": "book_room"
+      },
+      {
+        "text": "we need somewhere to stay for our anniversary weekend",
+        "expected": "book_room",
+        "classifier": "book_room",
+        "hybrid": "book_room"
+      },
+      {
+        "text": "please hold a suite for me",
+        "expected": "book_room",
+        "classifier": "book_room",
+        "hybrid": "book_room"
+      },
+      {
+        "text": "I want to make a reservation for four people",
+        "expected": "book_room",
+        "classifier": "book_room",
+        "hybrid": "book_room"
+      },
+      {
+        "text": "get me a family room starting friday",
+        "expected": "book_room",
+        "classifier": "book_room",
+        "hybrid": "book_room"
+      },
+      {
+        "text": "is there an opening for a standard room on march 3",
+        "expected": "check_availability",
+        "classifier": "check_availability",
+        "hybrid": "check_availability"
+      },
+      {
+        "text": "any vacancies for the 20th of november",
+        "expected": "check_availability",
+        "classifier": "check_availability",
+        "hybrid": "check_availability"
+      },
+      {
+        "text": "do you still have suites left for christmas",
+        "expected": "check_availability",
+        "classifier": "check_availability",
+        "hybrid": "check_availability"
+      },
+      {
+        "text": "are you fully booked on new year's eve",
+        "expected": "check_availability",
+        "classifier": "check_availability",
+        "hybrid": "check_availability"
+      },
+      {
+        "text": "can I see what rooms are open on january 5",
+        "expected": "check_availability",
+        "classifier": "check_availability",
+        "hybrid": "room_types_inquiry"
+      },
+      {
+        "text": "what does a deluxe room cost",
+        "expected": "check_price",
+        "classifier": "check_price",
+        "hybrid": "check_price"
+      },
+      {
+        "text": "how much would 4 nights in the family room be",
+        "expected": "check_price",
+        "classifier": "check_price",
+        "hybrid": "check_price"
+      },
+      {
+        "text": "what's the nightly rate for a suite",
+        "expected": "check_price",
+        "classifier": "check_price",
+        "hybrid": "check_price"
+      },
+      {
+        "text": "give me a quote for a standard room",
+        "expected": "check_price",
+        "classifier": "check_price",
+        "hybrid": "check_price"
+      },
+      {
+        "text": "what is the cheapest room you have",
+        "expected": "check_price",
+        "classifier": "room_types_inquiry",
+        "hybrid": "check_price"
+      },
+      {
+        "text": "I need to cancel reservation BR-1234ABCD",
+        "expected": "cancel_booking",
+        "classifier": "cancel_booking",
+        "hybrid": "cancel_booking"
+      },
+      {
+        "text": "please call off my stay",
+        "expected": "cancel_booking",
+        "classifier": "cancel_booking",
+        "hybrid": "cancel_booking"
+      },
+      {
+        "text": "we can't come anymore, cancel it",
+        "expected": "cancel_booking",
+        "classifier": "cancel_booking",
+        "hybrid": "cancel_booking"
+      },
+      {
+        "text": "drop my reservation please",
+        "expected": "cancel_booking",
+        "classifier": "cancel_booking",
+        "hybrid": "cancel_booking"
+      },
+      {
+        "text": "I want to move my booking to next month",
+        "expected": "modify_booking",
+        "classifier": "modify_booking",
+        "hybrid": "modify_booking"
+      },
+      {
+        "text": "can I add another night to my reservation",
+        "expected": "modify_booking",
+        "classifier": "modify_booking",
+        "hybrid": "modify_booking"
+      },
+      {
+        "text": "change my room to a suite",
+        "expected": "modify_booking",
+        "classifier": "modify_booking",
+        "hybrid": "modify_booking"
+      },
+      {
+        "text": "we are bringing one more guest, update my booking",
+        "expected": "modify_booking",
+        "classifier": "modify_booking",
+        "hybrid": "modify_booking"
+      },
+      {
+        "text": "what kinds of rooms are there",
+        "expected": "room_types_inquiry",
+        "classifier": "room_types_inquiry",
+        "hybrid": "room_types_inquiry"
+      },
+      {
+        "text": "tell me about your suites",
+        "expected": "room_types_inquiry",
+        "classifier": "room_types_inquiry",
+        "hybrid": "amenities_inquiry"
+      },
+      {
+        "text": "which room fits four people",
+        "expected": "room_types_inquiry",
+        "classifier": "room_types_inquiry",
+        "hybrid": "room_types_inquiry"
+      },
+      {
+        "text": "what's the biggest room",
+        "expected": "room_types_inquiry",
+        "classifier": "room_types_inquiry",
+        "hybrid": "room_types_inquiry"
+      },
+      {
+        "text": "what facilities does the hotel have",
+        "expected": "amenities_inquiry",
+        "classifier": "amenities_inquiry",
+        "hybrid": "amenities_inquiry"
+      },
+      {
+        "text": "is wifi free",
+        "expected": "amenities_inquiry",
+        "classifier": "amenities_inquiry",
+        "hybrid": "amenities_inquiry"
+      },
+      {
+        "text": "do you have a place to park my car",
+        "expected": "amenities_inquiry",
+        "classifier": "amenities_inquiry",
+        "hybrid": "amenities_inquiry"
+      },
+      {
+        "text": "is there a fitness room",
+        "expected": "amenities_inquiry",
+        "classifier": "amenities_inquiry",
+        "hybrid": "amenities_inquiry"
+      },
+      {
+        "text": "what time should I arrive to check in",
+        "expected": "checkin_checkout_time",
+        "classifier": "checkin_checkout_time",
+        "hybrid": "checkin_checkout_time"
+      },
+      {
+        "text": "by what time do I have to leave the room",
+        "expected": "checkin_checkout_time",
+        "classifier": "checkin_checkout_time",
+        "hybrid": "checkin_checkout_time"
+      },
+      {
+        "text": "what are your check in and check out hours",
+        "expected": "checkin_checkout_time",
+        "classifier": "checkin_checkout_time",
+        "hybrid": "checkin_checkout_time"
+      },
+      {
+        "text": "what forms of payment do you take",
+        "expected": "payment_inquiry",
+        "classifier": "payment_inquiry",
+        "hybrid": "payment_inquiry"
+      },
+      {
+        "text": "can I pay by card",
+        "expected": "payment_inquiry",
+        "classifier": "payment_inquiry",
+        "hybrid": "payment_inquiry"
+      },
+      {
+        "text": "do you accept e-wallets",
+        "expected": "payment_inquiry",
+        "classifier": "payment_inquiry",
+        "hybrid": "payment_inquiry"
+      },
+      {
+        "text": "where exactly is the hotel",
+        "expected": "location_inquiry",
+        "classifier": "location_inquiry",
+        "hybrid": "location_inquiry"
+      },
+      {
+        "text": "how do I find you",
+        "expected": "location_inquiry",
+        "classifier": "out_of_scope",
+        "hybrid": "location_inquiry"
+      },
+      {
+        "text": "what city are you in",
+        "expected": "location_inquiry",
+        "classifier": "location_inquiry",
+        "hybrid": "location_inquiry"
+      },
+      {
+        "text": "if I cancel will I be charged",
+        "expected": "cancellation_policy",
+        "classifier": "cancel_booking",
+        "hybrid": "cancellation_policy"
+      },
+      {
+        "text": "is cancellation free",
+        "expected": "cancellation_policy",
+        "classifier": "cancellation_policy",
+        "hybrid": "cancellation_policy"
+      },
+      {
+        "text": "what are the rules for cancelling",
+        "expected": "cancellation_policy",
+        "classifier": "cancellation_policy",
+        "hybrid": "cancellation_policy"
+      },
+      {
+        "text": "find my reservation BR-ABC12345",
+        "expected": "view_booking",
+        "classifier": "view_booking",
+        "hybrid": "view_booking"
+      },
+      {
+        "text": "can you pull up my booking",
+        "expected": "view_booking",
+        "classifier": "view_booking",
+        "hybrid": "view_booking"
+      },
+      {
+        "text": "is my reservation still active",
+        "expected": "view_booking",
+        "classifier": "view_booking",
+        "hybrid": "view_booking"
+      },
+      {
+        "text": "good evening!",
+        "expected": "greeting",
+        "classifier": "greeting",
+        "hybrid": "greeting"
+      },
+      {
+        "text": "hi, anyone there?",
+        "expected": "greeting",
+        "classifier": "greeting",
+        "hybrid": "greeting"
+      },
+      {
+        "text": "that was helpful, thanks",
+        "expected": "thanks",
+        "classifier": "thanks",
+        "hybrid": "thanks"
+      },
+      {
+        "text": "ok bye for now",
+        "expected": "goodbye",
+        "classifier": "goodbye",
+        "hybrid": "goodbye"
+      },
+      {
+        "text": "let me speak with an agent",
+        "expected": "request_human_agent",
+        "classifier": "request_human_agent",
+        "hybrid": "request_human_agent"
+      },
+      {
+        "text": "connect me to someone at the hotel",
+        "expected": "request_human_agent",
+        "classifier": "request_human_agent",
+        "hybrid": "request_human_agent"
+      },
+      {
+        "text": "I'd rather talk to a real person",
+        "expected": "request_human_agent",
+        "classifier": "request_human_agent",
+        "hybrid": "request_human_agent"
+      },
+      {
+        "text": "the air conditioner in my room is broken",
+        "expected": "complaint",
+        "classifier": "complaint",
+        "hybrid": "complaint"
+      },
+      {
+        "text": "I am very unhappy with the service",
+        "expected": "complaint",
+        "classifier": "complaint",
+        "hybrid": "complaint"
+      },
+      {
+        "text": "the staff were rude to me",
+        "expected": "complaint",
+        "classifier": "complaint",
+        "hybrid": "complaint"
+      },
+      {
+        "text": "who won the game last night",
+        "expected": "out_of_scope",
+        "classifier": "out_of_scope",
+        "hybrid": "out_of_scope"
+      },
+      {
+        "text": "write me a python script",
+        "expected": "out_of_scope",
+        "classifier": "out_of_scope",
+        "hybrid": "out_of_scope"
+      },
+      {
+        "text": "what is the meaning of life",
+        "expected": "out_of_scope",
+        "classifier": "out_of_scope",
+        "hybrid": "out_of_scope"
+      }
+    ],
+    "faq_predictions": [
+      {
+        "text": "is my dog welcome",
+        "expected": "pets",
+        "hybrid": "pets",
+        "retrieval": "breakfast_hours",
+        "similarity": 0.0
+      },
+      {
+        "text": "do you allow animals",
+        "expected": "pets",
+        "hybrid": "pets",
+        "retrieval": "pets",
+        "similarity": 0.6269
+      },
+      {
+        "text": "may I smoke on the balcony",
+        "expected": "smoking",
+        "hybrid": "smoking",
+        "retrieval": "smoking",
+        "similarity": 0.6092
+      },
+      {
+        "text": "are rooms non smoking",
+        "expected": "smoking",
+        "hybrid": "smoking",
+        "retrieval": "smoking",
+        "similarity": 0.486
+      },
+      {
+        "text": "I use a wheelchair, can I stay",
+        "expected": "accessibility",
+        "hybrid": "accessibility",
+        "retrieval": "accessibility",
+        "similarity": 0.4678
+      },
+      {
+        "text": "do you have a lift",
+        "expected": "accessibility",
+        "hybrid": "accessibility",
+        "retrieval": "breakfast_hours",
+        "similarity": 0.0
+      },
+      {
+        "text": "can I add a rollaway bed",
+        "expected": "extra_beds",
+        "hybrid": "extra_beds",
+        "retrieval": "extra_beds",
+        "similarity": 0.9849
+      },
+      {
+        "text": "do you provide baby cots",
+        "expected": "extra_beds",
+        "hybrid": "extra_beds",
+        "retrieval": "in_room",
+        "similarity": 0.5176
+      },
+      {
+        "text": "do children stay for free",
+        "expected": "children",
+        "hybrid": "children",
+        "retrieval": "children",
+        "similarity": 0.7337
+      },
+      {
+        "text": "until what time is breakfast",
+        "expected": "breakfast_hours",
+        "hybrid": "breakfast_hours",
+        "retrieval": "breakfast_hours",
+        "similarity": 0.9822
+      },
+      {
+        "text": "when does the pool open",
+        "expected": "pool_hours",
+        "hybrid": "pool_hours",
+        "retrieval": "pool_hours",
+        "similarity": 0.7816
+      },
+      {
+        "text": "gym opening times",
+        "expected": "gym_hours",
+        "hybrid": "gym_hours",
+        "retrieval": "gym_hours",
+        "similarity": 0.5467
+      },
+      {
+        "text": "is there somewhere to eat in the hotel",
+        "expected": "restaurant",
+        "hybrid": "restaurant",
+        "retrieval": "restaurant",
+        "similarity": 0.4326
+      },
+      {
+        "text": "can I get food delivered to my room",
+        "expected": "room_service",
+        "hybrid": "room_service",
+        "retrieval": "room_service",
+        "similarity": 0.6853
+      },
+      {
+        "text": "can you wash my clothes",
+        "expected": "laundry",
+        "hybrid": "laundry",
+        "retrieval": "laundry",
+        "similarity": 0.9834
+      },
+      {
+        "text": "can I drop my bags early",
+        "expected": "luggage",
+        "hybrid": "luggage",
+        "retrieval": "early_late",
+        "similarity": 0.4363
+      },
+      {
+        "text": "do you pick up guests from the airport",
+        "expected": "shuttle",
+        "hybrid": "shuttle",
+        "retrieval": "visitors",
+        "similarity": 0.5672
+      },
+      {
+        "text": "can my family come see me in my room",
+        "expected": "visitors",
+        "hybrid": "visitors",
+        "retrieval": "children",
+        "similarity": 0.4791
+      },
+      {
+        "text": "what ID should I bring",
+        "expected": "checkin_documents",
+        "hybrid": "checkin_documents",
+        "retrieval": "checkin_documents",
+        "similarity": 0.5727
+      },
+      {
+        "text": "is it possible to arrive at 9 in the morning",
+        "expected": "early_late",
+        "hybrid": "early_late",
+        "retrieval": "early_late",
+        "similarity": 0.8846
+      },
+      {
+        "text": "do you offer massages",
+        "expected": "spa",
+        "hybrid": "spa",
+        "retrieval": "breakfast_hours",
+        "similarity": 0.0
+      },
+      {
+        "text": "is there a lounge or bar",
+        "expected": "bar",
+        "hybrid": "bar",
+        "retrieval": "bar",
+        "similarity": 0.7965
+      },
+      {
+        "text": "does the room have a fridge",
+        "expected": "in_room",
+        "hybrid": "in_room",
+        "retrieval": "in_room",
+        "similarity": 0.7112
+      },
+      {
+        "text": "are toiletries provided",
+        "expected": "in_room",
+        "hybrid": "in_room",
+        "retrieval": "breakfast_hours",
+        "similarity": 0.0
+      },
+      {
+        "text": "do any rooms have a sea view",
+        "expected": "view_balcony",
+        "hybrid": "view_balcony",
+        "retrieval": "view_balcony",
+        "similarity": 0.4481
+      },
+      {
+        "text": "is the internet fast",
+        "expected": "wifi",
+        "hybrid": "wifi",
+        "retrieval": "wifi",
+        "similarity": 0.5967
+      },
+      {
+        "text": "how much is parking",
+        "expected": "parking",
+        "hybrid": "parking",
+        "retrieval": "parking",
+        "similarity": 0.9295
+      },
+      {
+        "text": "can I host a meeting at the hotel",
+        "expected": "business",
+        "hybrid": "business",
+        "retrieval": "business",
+        "similarity": 0.5936
+      },
+      {
+        "text": "do you have halal food",
+        "expected": "dietary",
+        "hybrid": "dietary",
+        "retrieval": "dietary",
+        "similarity": 0.8031
+      },
+      {
+        "text": "can I bring snacks from outside",
+        "expected": "outside_food",
+        "hybrid": "outside_food",
+        "retrieval": "outside_food",
+        "similarity": 0.5115
+      },
+      {
+        "text": "is the hotel safe at night",
+        "expected": "security",
+        "hybrid": "security",
+        "retrieval": "security",
+        "similarity": 0.8756
+      },
+      {
+        "text": "what is your email address",
+        "expected": "contact",
+        "hybrid": "contact",
+        "retrieval": "location",
+        "similarity": 0.7638
+      },
+      {
+        "text": "what tourist spots are close by",
+        "expected": "nearby",
+        "hybrid": "nearby",
+        "retrieval": "nearby",
+        "similarity": 0.3567
+      },
+      {
+        "text": "are taxes included in the price",
+        "expected": "taxes_fees",
+        "hybrid": "taxes_fees",
+        "retrieval": "taxes_fees",
+        "similarity": 0.9531
+      },
+      {
+        "text": "any promo codes",
+        "expected": "discounts",
+        "hybrid": "discounts",
+        "retrieval": "discounts",
+        "similarity": 0.6517
+      },
+      {
+        "text": "describe the hotel",
+        "expected": "about_hotel",
+        "hybrid": "about_hotel",
+        "retrieval": "breakfast_hours",
+        "similarity": 0.0
+      },
+      {
+        "text": "what can you help me with",
+        "expected": "about_bot",
+        "hybrid": "about_bot",
+        "retrieval": "about_bot",
+        "similarity": 0.823
+      }
+    ]
+  }
+}

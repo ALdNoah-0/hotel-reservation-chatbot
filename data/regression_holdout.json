@@ -1,0 +1,389 @@
+{
+  "provenance": "Original 96-message notebook holdout. Inspected before implementation; regression benchmark, not independent evaluation for revised engine.",
+  "examples": [
+    {
+      "text": "yo, anyone home?",
+      "intent": "greeting"
+    },
+    {
+      "text": "afternoon! got a sec?",
+      "intent": "greeting"
+    },
+    {
+      "text": "hiya, need some info",
+      "intent": "greeting"
+    },
+    {
+      "text": "what's up, can you help me out",
+      "intent": "greeting"
+    },
+    {
+      "text": "hope you're doing well, quick question for you",
+      "intent": "greeting"
+    },
+    {
+      "text": "heya, i have something to ask",
+      "intent": "greeting"
+    },
+    {
+      "text": "aight i'm out, thanks",
+      "intent": "goodbye"
+    },
+    {
+      "text": "gonna head off now, cheers",
+      "intent": "goodbye"
+    },
+    {
+      "text": "that's everything, take it easy",
+      "intent": "goodbye"
+    },
+    {
+      "text": "gotta run, appreciate the chat",
+      "intent": "goodbye"
+    },
+    {
+      "text": "i'll leave it there, bye for now",
+      "intent": "goodbye"
+    },
+    {
+      "text": "signing off, thanks for your time",
+      "intent": "goodbye"
+    },
+    {
+      "text": "you're a lifesaver, appreciate it",
+      "intent": "thanks"
+    },
+    {
+      "text": "that cleared things up, thank you",
+      "intent": "thanks"
+    },
+    {
+      "text": "nice, that's exactly what i needed",
+      "intent": "thanks"
+    },
+    {
+      "text": "solid, thanks a ton",
+      "intent": "thanks"
+    },
+    {
+      "text": "brilliant, thank you for explaining",
+      "intent": "thanks"
+    },
+    {
+      "text": "cheers for that",
+      "intent": "thanks"
+    },
+    {
+      "text": "can you set me up with somewhere to stay for the weekend of the 12th",
+      "intent": "book_room"
+    },
+    {
+      "text": "looking to lock in a place for my trip in two weeks",
+      "intent": "book_room"
+    },
+    {
+      "text": "i need somewhere to crash for a few nights next month",
+      "intent": "book_room"
+    },
+    {
+      "text": "trying to secure a spot for my anniversary trip",
+      "intent": "book_room"
+    },
+    {
+      "text": "put me down for a stay sometime around the holidays",
+      "intent": "book_room"
+    },
+    {
+      "text": "we need lodging arranged for our group visit",
+      "intent": "book_room"
+    },
+    {
+      "text": "is there anything open around that time",
+      "intent": "check_availability"
+    },
+    {
+      "text": "not sure if you're fully booked, can you check",
+      "intent": "check_availability"
+    },
+    {
+      "text": "wondering if you've got space left for my dates",
+      "intent": "check_availability"
+    },
+    {
+      "text": "any chance you're not sold out that week",
+      "intent": "check_availability"
+    },
+    {
+      "text": "curious whether rooms are still up for grabs",
+      "intent": "check_availability"
+    },
+    {
+      "text": "got anything free around then",
+      "intent": "check_availability"
+    },
+    {
+      "text": "what am i looking at cost-wise",
+      "intent": "check_price"
+    },
+    {
+      "text": "roughly how much would that set me back",
+      "intent": "check_price"
+    },
+    {
+      "text": "curious what the damage would be per night",
+      "intent": "check_price"
+    },
+    {
+      "text": "any idea on the budget i'd need",
+      "intent": "check_price"
+    },
+    {
+      "text": "what's this gonna run me",
+      "intent": "check_price"
+    },
+    {
+      "text": "ballpark figure for a few nights?",
+      "intent": "check_price"
+    },
+    {
+      "text": "yeah i need to back out of my reservation",
+      "intent": "cancel_booking"
+    },
+    {
+      "text": "things came up, i can't make the trip anymore",
+      "intent": "cancel_booking"
+    },
+    {
+      "text": "please scrap my upcoming stay",
+      "intent": "cancel_booking"
+    },
+    {
+      "text": "i need to pull out of my booking",
+      "intent": "cancel_booking"
+    },
+    {
+      "text": "unfortunately i have to withdraw my reservation",
+      "intent": "cancel_booking"
+    },
+    {
+      "text": "can you undo my booking for me",
+      "intent": "cancel_booking"
+    },
+    {
+      "text": "i need to shuffle around my reservation details",
+      "intent": "modify_booking"
+    },
+    {
+      "text": "could we tweak the dates on my booking",
+      "intent": "modify_booking"
+    },
+    {
+      "text": "i'd like to swap out my room for something else",
+      "intent": "modify_booking"
+    },
+    {
+      "text": "any way to adjust who's staying with me",
+      "intent": "modify_booking"
+    },
+    {
+      "text": "need to push my trip back a bit",
+      "intent": "modify_booking"
+    },
+    {
+      "text": "can we rework my current booking",
+      "intent": "modify_booking"
+    },
+    {
+      "text": "when am i allowed to show up",
+      "intent": "checkin_checkout_time"
+    },
+    {
+      "text": "what's the cutoff before i gotta be out",
+      "intent": "checkin_checkout_time"
+    },
+    {
+      "text": "how early can i get into my room",
+      "intent": "checkin_checkout_time"
+    },
+    {
+      "text": "is there flexibility on when i leave",
+      "intent": "checkin_checkout_time"
+    },
+    {
+      "text": "what hours do you run check-in",
+      "intent": "checkin_checkout_time"
+    },
+    {
+      "text": "when's the latest i can head out",
+      "intent": "checkin_checkout_time"
+    },
+    {
+      "text": "what's included with the stay",
+      "intent": "amenities_inquiry"
+    },
+    {
+      "text": "anything fun to do on site",
+      "intent": "amenities_inquiry"
+    },
+    {
+      "text": "do you guys have stuff for kids",
+      "intent": "amenities_inquiry"
+    },
+    {
+      "text": "what comes with the room besides the bed",
+      "intent": "amenities_inquiry"
+    },
+    {
+      "text": "is there anywhere to work out",
+      "intent": "amenities_inquiry"
+    },
+    {
+      "text": "got anywhere to grab a bite on property",
+      "intent": "amenities_inquiry"
+    },
+    {
+      "text": "how do i actually get there",
+      "intent": "location_inquiry"
+    },
+    {
+      "text": "what's around the area worth checking out",
+      "intent": "location_inquiry"
+    },
+    {
+      "text": "is it a hike from the airport",
+      "intent": "location_inquiry"
+    },
+    {
+      "text": "which part of town are you in",
+      "intent": "location_inquiry"
+    },
+    {
+      "text": "close to anything i'd recognize",
+      "intent": "location_inquiry"
+    },
+    {
+      "text": "how do people usually get to you",
+      "intent": "location_inquiry"
+    },
+    {
+      "text": "how do i actually settle the bill",
+      "intent": "payment_inquiry"
+    },
+    {
+      "text": "do you need money up front",
+      "intent": "payment_inquiry"
+    },
+    {
+      "text": "what forms of payment work for you",
+      "intent": "payment_inquiry"
+    },
+    {
+      "text": "is there flexibility on when i pay",
+      "intent": "payment_inquiry"
+    },
+    {
+      "text": "do i owe anything before i arrive",
+      "intent": "payment_inquiry"
+    },
+    {
+      "text": "can i square up when i get there",
+      "intent": "payment_inquiry"
+    },
+    {
+      "text": "this really hasn't been a good experience so far",
+      "intent": "complaint"
+    },
+    {
+      "text": "somebody dropped the ball on my room",
+      "intent": "complaint"
+    },
+    {
+      "text": "not thrilled with how things have gone",
+      "intent": "complaint"
+    },
+    {
+      "text": "i've had nothing but trouble since i got here",
+      "intent": "complaint"
+    },
+    {
+      "text": "this isn't what i signed up for",
+      "intent": "complaint"
+    },
+    {
+      "text": "i'm frustrated with how my stay has gone",
+      "intent": "complaint"
+    },
+    {
+      "text": "can someone with actual authority help me",
+      "intent": "request_human_agent"
+    },
+    {
+      "text": "i'd rather deal with a person on this one",
+      "intent": "request_human_agent"
+    },
+    {
+      "text": "put me in touch with someone who can actually help",
+      "intent": "request_human_agent"
+    },
+    {
+      "text": "is there a way around the automated stuff",
+      "intent": "request_human_agent"
+    },
+    {
+      "text": "i need this escalated to an actual employee",
+      "intent": "request_human_agent"
+    },
+    {
+      "text": "can i get bumped up to a human",
+      "intent": "request_human_agent"
+    },
+    {
+      "text": "what are my choices when it comes to rooms",
+      "intent": "room_types_inquiry"
+    },
+    {
+      "text": "walk me through what's on offer",
+      "intent": "room_types_inquiry"
+    },
+    {
+      "text": "got anything fancier than the basic option",
+      "intent": "room_types_inquiry"
+    },
+    {
+      "text": "what separates your room tiers",
+      "intent": "room_types_inquiry"
+    },
+    {
+      "text": "any options suited for a bigger group",
+      "intent": "room_types_inquiry"
+    },
+    {
+      "text": "what's the range from cheapest to nicest",
+      "intent": "room_types_inquiry"
+    },
+    {
+      "text": "can you help me pick a birthday gift",
+      "intent": "out_of_scope"
+    },
+    {
+      "text": "what's a good workout routine",
+      "intent": "out_of_scope"
+    },
+    {
+      "text": "explain how blockchain works",
+      "intent": "out_of_scope"
+    },
+    {
+      "text": "any tips for learning guitar",
+      "intent": "out_of_scope"
+    },
+    {
+      "text": "what's the score of the game last night",
+      "intent": "out_of_scope"
+    },
+    {
+      "text": "can you translate this sentence for me",
+      "intent": "out_of_scope"
+    }
+  ]
+}

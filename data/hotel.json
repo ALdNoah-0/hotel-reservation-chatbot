@@ -1,0 +1,123 @@
+{
+  "name": "Hotel Becerel",
+  "demo": true,
+  "timezone": "Asia/Manila",
+  "currency": "PHP",
+  "checkin_time": "2:00 PM",
+  "checkout_time": "12:00 noon",
+  "address": "88 Becerel Avenue, Makati City, Metro Manila, Philippines (fictional demo address)",
+  "reception_contact": "+63 2 8123 4567 or reception@hotelbecerel.example (fictional demo contact, available 24/7)",
+  "hotel_faq": {
+    "pets": "Small pets (dogs and cats up to 10 kg) are welcome in Standard and Family rooms with advance notice, for PHP 800 per stay. Pets must be leashed in public areas and are not allowed in the pool or restaurant. Other animals (for example birds, reptiles, or exotic animals) are not allowed. Service animals are always welcome at no charge.",
+    "smoking": "All rooms and indoor areas are non-smoking, including vapes and e-cigarettes. A designated smoking area is located at the ground-floor garden terrace. Smoking in a room incurs a PHP 5,000 cleaning fee.",
+    "accessibility": "The hotel has step-free entrances, elevators to every floor, and two accessible Deluxe rooms with roll-in showers, grab bars, and wider doorways. Mention accessibility needs as a special request when booking so we can assign an accessible room.",
+    "extra_beds": "Rollaway beds are available for PHP 1,200 per night in Deluxe, Family, and Suite rooms. Baby cribs are free on request. Every person staying, including children, still counts toward the room's guest capacity.",
+    "children": "Children are welcome. Children under 6 sharing existing beds stay free and eat breakfast free; everyone staying still counts toward the room's guest capacity (Standard and Deluxe: 2 guests; Family and Suite: 4 guests). Baby cribs are free on request.",
+    "breakfast_hours": "Breakfast is included in every room rate and is served at the Becerel Kitchen from 6:30 AM to 10:30 AM daily (until 11:00 AM on weekends).",
+    "pool_hours": "The rooftop pool is open daily from 7:00 AM to 9:00 PM. Towels are provided at the pool. Children under 12 must be accompanied by an adult.",
+    "gym_hours": "The fitness center is open 24 hours for hotel guests; use your room key card to enter. It has cardio machines, free weights, and yoga mats.",
+    "restaurant": "Becerel Kitchen, on the ground floor, serves Filipino and international dishes: breakfast 6:30 to 10:30 AM, lunch 11:30 AM to 2:30 PM, and dinner 6:00 to 10:00 PM.",
+    "room_service": "Room service is available from 6:00 AM to 11:00 PM. Order from the in-room menu or dial 0 from your room phone.",
+    "laundry": "Same-day laundry and dry-cleaning service is available when items are dropped off before 10:00 AM; prices are listed in your room. A self-service coin laundry is on the 2nd floor.",
+    "luggage": "Free luggage storage is available at the front desk before check-in and after check-out on your departure day.",
+    "shuttle": "Airport transfers to and from NAIA can be arranged for PHP 1,500 per way per car (up to 3 guests). Please request it at least 24 hours before arrival, for example as a special request on your booking.",
+    "visitors": "Visitors are welcome in the lobby, restaurant, and bar. Visitors going to guest rooms must register with valid ID at the front desk and leave by 10:00 PM, unless they are added as registered guests.",
+    "checkin_documents": "Please bring a valid government-issued photo ID or passport, plus your booking reference. The name on the ID should match the reservation. The main guest must be at least 18 years old.",
+    "early_late": "Standard check-in is from 2:00 PM and check-out is by 12:00 noon. Early check-in (from 10:00 AM) or late check-out (until 4:00 PM) is free when rooms allow; request it ahead and confirm at the front desk. A guaranteed late check-out until 6:00 PM costs 50% of the nightly rate.",
+    "spa": "The Becerel Spa on the 3rd floor offers massages and body treatments daily from 10:00 AM to 10:00 PM. Booking a few hours ahead is recommended; ask at the front desk.",
+    "bar": "The Skyline Bar next to the rooftop pool serves drinks and light bites from 4:00 PM to midnight daily, with happy hour from 5:00 to 7:00 PM.",
+    "length_of_stay": "Each reservation covers 1 to 30 nights: the minimum stay is 1 night and the maximum is 30 nights (about a month). For a longer stay, make a second reservation that starts on your check-out date. Tell me the room, check-in date, and number of nights (or weeks), for example \"Book a deluxe room for 2 weeks from December 24 for 2 guests\".",
+    "special_requests":"Yes. Type \"Special request:\" followed by your preference (for example, \"Special request: quiet room on a high floor\") or use the Special requests box in the booking form. Requests are saved with your reservation and shown in your summary; they are preferences, not guarantees.",
+    "in_room": "Every room has air conditioning, a smart TV, free Wi-Fi, a minibar fridge, an electronic safe, a kettle with coffee and tea, a hair dryer, hot-water shower, fresh towels, and toiletries. Suites also have a bathtub and a separate living area.",
+    "view_balcony": "Suites and Family rooms have private balconies with city views. Deluxe rooms have large windows with a skyline view. You can add a preferred view or high floor as a special request; it is not guaranteed.",
+    "wifi": "Free high-speed Wi-Fi is available throughout the hotel. The network name and password are printed on your room key sleeve and given at check-in.",
+    "parking": "Free on-site parking is available for hotel guests' cars, motorbikes, and bicycles, with security and CCTV. Two EV charging stations are available on request at the front desk.",
+    "business": "A business center with printing is open 24 hours. Two meeting rooms for up to 20 people can be booked through reception. Large events and weddings are not hosted at this boutique hotel.",
+    "dietary": "Becerel Kitchen offers vegetarian, vegan, halal-friendly, and gluten-free options. Please tell the restaurant staff about allergies before ordering.",
+    "outside_food": "You are welcome to bring snacks and drinks to your room. Outside food is not allowed in the restaurant, bar, or pool area. Strong-smelling food such as durian is not permitted.",
+    "security": "The front desk is staffed 24/7, entrances and parking have CCTV, and guest floors require a key card. There is no curfew for guests. Each room also has an electronic safe. Lost your key card or locked out? The front desk can issue a new one 24/7 after checking your ID. Safe deposit boxes are also available at the front desk.",
+    "contact": "You can reach reception 24/7 at +63 2 8123 4567 or reception@hotelbecerel.example (fictional demo contacts). Our staff speak English and Filipino. This chat cannot connect to a live agent.",
+    "location": "Hotel Becerel is at 88 Becerel Avenue, Makati City, Metro Manila (a fictional demo address). It is about 25 to 40 minutes by car from NAIA airport, depending on traffic.",
+    "nearby": "Nearby: Greenbelt and Glorietta malls (about a 10-minute walk), Ayala Triangle Gardens (5 minutes), and Intramuros and Manila Bay (about 30 minutes by car). The hotel is in the city, not on a beach. There is an ATM in the lobby and a 24-hour convenience store (with SIM cards) next door.",
+    "taxes_fees": "All prices are in Philippine pesos (PHP). The nightly rates shown are final for this demo: taxes are included, and there are no resort or service fees.",
+    "discounts": "There are no promo codes at the moment; the rates shown are the best available rates, with breakfast and Wi-Fi included. Children under 6 stay free when sharing existing beds.",
+    "about_hotel": "Hotel Becerel is a fictional boutique hotel in Makati City, Manila, with 12 rooms in four categories (Standard, Deluxe, Family, and Suite), a rooftop pool, a 24-hour gym, a spa, Becerel Kitchen, and the Skyline Bar. Breakfast and Wi-Fi are included with every stay.",
+    "about_bot": "I'm the Hotel Becerel virtual assistant. I can answer questions about rooms, rates, amenities, and hotel policies, check availability, quote prices, make a reservation, and look up, change, or cancel an existing reservation using its reference and email. Try: \"Book a deluxe room for 3 nights from December 24 for 2 guests\".",
+    "housekeeping": "Rooms are cleaned daily between 9:00 AM and 3:00 PM; hang the Do Not Disturb sign to skip a day. Fresh towels, extra pillows, and blankets are free on request: dial 0 from your room phone.",
+    "noise": "Rooms have double-glazed, soundproofed windows, and quiet hours are 10:00 PM to 7:00 AM. For the quietest stay, add \"quiet room on a high floor\" as a special request.",
+    "medical": "The front desk has first aid 24/7 and can call an on-call doctor. Makati Medical Center is about 10 minutes away by car, and a 24-hour pharmacy is a 5-minute walk away in Greenbelt. In an emergency, dial 0 for the front desk or 911.",
+    "feedback": "We would love to hear from you! Share feedback with the front desk during your stay or email reception@hotelbecerel.example (a fictional demo address). This chat does not collect reviews."
+  },
+  "amenities": {
+    "wifi": {
+      "label": "Wi-Fi",
+      "description": "Free high-speed Wi-Fi throughout the hotel."
+    },
+    "pool": {
+      "label": "Rooftop pool",
+      "description": "Rooftop pool open daily from 7:00 AM to 9:00 PM."
+    },
+    "gym": {
+      "label": "Fitness center",
+      "description": "24-hour fitness center for guests."
+    },
+    "breakfast": {
+      "label": "Breakfast",
+      "description": "Breakfast is included in every room rate, served 6:30 to 10:30 AM."
+    },
+    "parking": {
+      "label": "Parking",
+      "description": "Free on-site parking for hotel guests."
+    },
+    "restaurant": {
+      "label": "Becerel Kitchen",
+      "description": "Filipino and international restaurant, open for breakfast, lunch, and dinner."
+    },
+    "spa": {
+      "label": "Spa",
+      "description": "Massages and body treatments daily from 10:00 AM to 10:00 PM."
+    },
+    "bar": {
+      "label": "Skyline Bar",
+      "description": "Rooftop bar from 4:00 PM to midnight."
+    }
+  },
+  "payment_methods": [
+    "Cash",
+    "Credit/debit card",
+    "GCash"
+  ],
+  "payment_policy": "All prices and payments are in Philippine pesos (PHP); foreign currency and cryptocurrency are not accepted. Payment is made at the hotel at check-in, no deposit is required to reserve, and an official receipt or company invoice is issued on request. This demo app does not collect any payment.",
+  "cancellation_policy": "Cancellation is free: you can cancel an active reservation at any time, here in chat or in the Manage tab, using your booking reference and email. No payment is taken when you book, so there is nothing to refund.",
+  "pricing_note": "Rates are in PHP per room per night, taxes included, with breakfast. One room per reservation.",
+  "rooms": {
+    "standard": {
+      "label": "Standard",
+      "nightly_rate": 3500,
+      "capacity": 2,
+      "inventory": 5,
+      "description": "A comfortable 22 m² room with a queen bed and city view, ideal for one or two guests."
+    },
+    "deluxe": {
+      "label": "Deluxe",
+      "nightly_rate": 5000,
+      "capacity": 2,
+      "inventory": 3,
+      "description": "A larger 30 m² room with a king bed, work desk, and skyline windows."
+    },
+    "family": {
+      "label": "Family",
+      "nightly_rate": 7000,
+      "capacity": 4,
+      "inventory": 2,
+      "description": "A 40 m² room with two queen beds and a balcony, for up to four guests."
+    },
+    "suite": {
+      "label": "Suite",
+      "nightly_rate": 9000,
+      "capacity": 4,
+      "inventory": 2,
+      "description": "A 55 m² suite with a separate living area, bathtub, and balcony, for up to four guests."
+    }
+  }
+}

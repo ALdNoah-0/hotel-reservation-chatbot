@@ -1,0 +1,395 @@
+{
+  "provenance": "Written on 2026-10-16 before the MVP training-data and FAQ expansion. Not used for training or rule tuning; evaluate only. Intent labels use the 16-intent taxonomy; faq items name the expected hotel_faq topic. Three generic phrases that duplicated original notebook training text were removed on 2026-10-16 (deduplication only; no relabelling).",
+  "intent_examples": [
+    {
+      "text": "I'd like to get a room for the 3rd of December",
+      "intent": "book_room"
+    },
+    {
+      "text": "can you set me up with a deluxe for two nights",
+      "intent": "book_room"
+    },
+    {
+      "text": "we need somewhere to stay for our anniversary weekend",
+      "intent": "book_room"
+    },
+    {
+      "text": "please hold a suite for me",
+      "intent": "book_room"
+    },
+    {
+      "text": "I want to make a reservation for four people",
+      "intent": "book_room"
+    },
+    {
+      "text": "get me a family room starting friday",
+      "intent": "book_room"
+    },
+    {
+      "text": "is there an opening for a standard room on march 3",
+      "intent": "check_availability"
+    },
+    {
+      "text": "any vacancies for the 20th of november",
+      "intent": "check_availability"
+    },
+    {
+      "text": "do you still have suites left for christmas",
+      "intent": "check_availability"
+    },
+    {
+      "text": "are you fully booked on new year's eve",
+      "intent": "check_availability"
+    },
+    {
+      "text": "can I see what rooms are open on january 5",
+      "intent": "check_availability"
+    },
+    {
+      "text": "what does a deluxe room cost",
+      "intent": "check_price"
+    },
+    {
+      "text": "how much would 4 nights in the family room be",
+      "intent": "check_price"
+    },
+    {
+      "text": "what's the nightly rate for a suite",
+      "intent": "check_price"
+    },
+    {
+      "text": "give me a quote for a standard room",
+      "intent": "check_price"
+    },
+    {
+      "text": "what is the cheapest room you have",
+      "intent": "check_price"
+    },
+    {
+      "text": "I need to cancel reservation BR-1234ABCD",
+      "intent": "cancel_booking"
+    },
+    {
+      "text": "please call off my stay",
+      "intent": "cancel_booking"
+    },
+    {
+      "text": "we can't come anymore, cancel it",
+      "intent": "cancel_booking"
+    },
+    {
+      "text": "drop my reservation please",
+      "intent": "cancel_booking"
+    },
+    {
+      "text": "I want to move my booking to next month",
+      "intent": "modify_booking"
+    },
+    {
+      "text": "can I add another night to my reservation",
+      "intent": "modify_booking"
+    },
+    {
+      "text": "change my room to a suite",
+      "intent": "modify_booking"
+    },
+    {
+      "text": "we are bringing one more guest, update my booking",
+      "intent": "modify_booking"
+    },
+    {
+      "text": "what kinds of rooms are there",
+      "intent": "room_types_inquiry"
+    },
+    {
+      "text": "tell me about your suites",
+      "intent": "room_types_inquiry"
+    },
+    {
+      "text": "which room fits four people",
+      "intent": "room_types_inquiry"
+    },
+    {
+      "text": "what's the biggest room",
+      "intent": "room_types_inquiry"
+    },
+    {
+      "text": "what facilities does the hotel have",
+      "intent": "amenities_inquiry"
+    },
+    {
+      "text": "is wifi free",
+      "intent": "amenities_inquiry"
+    },
+    {
+      "text": "do you have a place to park my car",
+      "intent": "amenities_inquiry"
+    },
+    {
+      "text": "is there a fitness room",
+      "intent": "amenities_inquiry"
+    },
+    {
+      "text": "what time should I arrive to check in",
+      "intent": "checkin_checkout_time"
+    },
+    {
+      "text": "by what time do I have to leave the room",
+      "intent": "checkin_checkout_time"
+    },
+    {
+      "text": "what are your check in and check out hours",
+      "intent": "checkin_checkout_time"
+    },
+    {
+      "text": "what forms of payment do you take",
+      "intent": "payment_inquiry"
+    },
+    {
+      "text": "can I pay by card",
+      "intent": "payment_inquiry"
+    },
+    {
+      "text": "do you accept e-wallets",
+      "intent": "payment_inquiry"
+    },
+    {
+      "text": "where exactly is the hotel",
+      "intent": "location_inquiry"
+    },
+    {
+      "text": "how do I find you",
+      "intent": "location_inquiry"
+    },
+    {
+      "text": "what city are you in",
+      "intent": "location_inquiry"
+    },
+    {
+      "text": "if I cancel will I be charged",
+      "intent": "cancellation_policy"
+    },
+    {
+      "text": "is cancellation free",
+      "intent": "cancellation_policy"
+    },
+    {
+      "text": "what are the rules for cancelling",
+      "intent": "cancellation_policy"
+    },
+    {
+      "text": "find my reservation BR-ABC12345",
+      "intent": "view_booking"
+    },
+    {
+      "text": "can you pull up my booking",
+      "intent": "view_booking"
+    },
+    {
+      "text": "is my reservation still active",
+      "intent": "view_booking"
+    },
+    {
+      "text": "good evening!",
+      "intent": "greeting"
+    },
+    {
+      "text": "hi, anyone there?",
+      "intent": "greeting"
+    },
+    {
+      "text": "that was helpful, thanks",
+      "intent": "thanks"
+    },
+    {
+      "text": "ok bye for now",
+      "intent": "goodbye"
+    },
+    {
+      "text": "let me speak with an agent",
+      "intent": "request_human_agent"
+    },
+    {
+      "text": "connect me to someone at the hotel",
+      "intent": "request_human_agent"
+    },
+    {
+      "text": "I'd rather talk to a real person",
+      "intent": "request_human_agent"
+    },
+    {
+      "text": "the air conditioner in my room is broken",
+      "intent": "complaint"
+    },
+    {
+      "text": "I am very unhappy with the service",
+      "intent": "complaint"
+    },
+    {
+      "text": "the staff were rude to me",
+      "intent": "complaint"
+    },
+    {
+      "text": "who won the game last night",
+      "intent": "out_of_scope"
+    },
+    {
+      "text": "write me a python script",
+      "intent": "out_of_scope"
+    },
+    {
+      "text": "what is the meaning of life",
+      "intent": "out_of_scope"
+    }
+  ],
+  "faq_examples": [
+    {
+      "text": "is my dog welcome",
+      "topic": "pets"
+    },
+    {
+      "text": "do you allow animals",
+      "topic": "pets"
+    },
+    {
+      "text": "may I smoke on the balcony",
+      "topic": "smoking"
+    },
+    {
+      "text": "are rooms non smoking",
+      "topic": "smoking"
+    },
+    {
+      "text": "I use a wheelchair, can I stay",
+      "topic": "accessibility"
+    },
+    {
+      "text": "do you have a lift",
+      "topic": "accessibility"
+    },
+    {
+      "text": "can I add a rollaway bed",
+      "topic": "extra_beds"
+    },
+    {
+      "text": "do you provide baby cots",
+      "topic": "extra_beds"
+    },
+    {
+      "text": "do children stay for free",
+      "topic": "children"
+    },
+    {
+      "text": "until what time is breakfast",
+      "topic": "breakfast_hours"
+    },
+    {
+      "text": "when does the pool open",
+      "topic": "pool_hours"
+    },
+    {
+      "text": "gym opening times",
+      "topic": "gym_hours"
+    },
+    {
+      "text": "is there somewhere to eat in the hotel",
+      "topic": "restaurant"
+    },
+    {
+      "text": "can I get food delivered to my room",
+      "topic": "room_service"
+    },
+    {
+      "text": "can you wash my clothes",
+      "topic": "laundry"
+    },
+    {
+      "text": "can I drop my bags early",
+      "topic": "luggage"
+    },
+    {
+      "text": "do you pick up guests from the airport",
+      "topic": "shuttle"
+    },
+    {
+      "text": "can my family come see me in my room",
+      "topic": "visitors"
+    },
+    {
+      "text": "what ID should I bring",
+      "topic": "checkin_documents"
+    },
+    {
+      "text": "is it possible to arrive at 9 in the morning",
+      "topic": "early_late"
+    },
+    {
+      "text": "do you offer massages",
+      "topic": "spa"
+    },
+    {
+      "text": "is there a lounge or bar",
+      "topic": "bar"
+    },
+    {
+      "text": "does the room have a fridge",
+      "topic": "in_room"
+    },
+    {
+      "text": "are toiletries provided",
+      "topic": "in_room"
+    },
+    {
+      "text": "do any rooms have a sea view",
+      "topic": "view_balcony"
+    },
+    {
+      "text": "is the internet fast",
+      "topic": "wifi"
+    },
+    {
+      "text": "how much is parking",
+      "topic": "parking"
+    },
+    {
+      "text": "can I host a meeting at the hotel",
+      "topic": "business"
+    },
+    {
+      "text": "do you have halal food",
+      "topic": "dietary"
+    },
+    {
+      "text": "can I bring snacks from outside",
+      "topic": "outside_food"
+    },
+    {
+      "text": "is the hotel safe at night",
+      "topic": "security"
+    },
+    {
+      "text": "what is your email address",
+      "topic": "contact"
+    },
+    {
+      "text": "what tourist spots are close by",
+      "topic": "nearby"
+    },
+    {
+      "text": "are taxes included in the price",
+      "topic": "taxes_fees"
+    },
+    {
+      "text": "any promo codes",
+      "topic": "discounts"
+    },
+    {
+      "text": "describe the hotel",
+      "topic": "about_hotel"
+    },
+    {
+      "text": "what can you help me with",
+      "topic": "about_bot"
+    }
+  ]
+}

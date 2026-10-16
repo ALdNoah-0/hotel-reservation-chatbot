@@ -1,0 +1,44 @@
+# --- Python environments (recreate with: py -m venv .venv && pip install -r requirements.txt)
+.venv/
+.venv-*/
+venv/
+env/
+
+# --- Python bytecode and build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- Test and coverage output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# --- Local reservation data (contains guest names and emails; created automatically on first run)
+var/
+*.sqlite3
+*.sqlite3-journal
+*.db
+
+# --- Jupyter
+.ipynb_checkpoints/
+
+# --- Secrets and local settings (keep .streamlit/config.toml, which sets the app theme)
+.env
+.env.*
+.streamlit/secrets.toml
+
+# --- Editor, assistant, and tool folders
+.vscode/
+.idea/
+.claude/
+.qodo/
+
+# --- OS clutter and logs
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

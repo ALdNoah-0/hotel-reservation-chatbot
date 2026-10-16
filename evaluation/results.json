@@ -2,7 +2,7 @@
   "dataset_status": "Original 96-message notebook holdout. Inspected before implementation; regression benchmark, not independent evaluation for revised engine.",
   "sample_count": 96,
   "training_examples": 849,
-  "generated_at": "2026-10-16T06:52:40.745544+00:00",
+  "generated_at": "2026-10-16T08:04:20.372352+00:00",
   "historical_notebook": {
     "templated_accuracy": 0.9423,
     "original_holdout_accuracy": 0.4688
